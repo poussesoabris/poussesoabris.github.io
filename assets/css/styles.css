@@ -1,4 +1,5 @@
-
+---
+---
 /* document */
 body{
     position: absolute;
@@ -70,7 +71,7 @@ footer .team-link{
     justify-content: flex-end;
     align-items: center;
     color: white;
-    background: url(/assets/images/COUVERTURE.JPG) no-repeat center center fixed; 
+    background: url('{{site.baseurl}}/assets/images/COUVERTURE.JPG') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
