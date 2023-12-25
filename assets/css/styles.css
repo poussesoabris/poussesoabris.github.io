@@ -19,6 +19,7 @@ h2{
     font-variant: all-petite-caps;
     font-size: 1.8em;
     margin-top: 0;
+    padding-bottom: 10px;
 }
 h3{
     color: #6f4b5d;
@@ -26,8 +27,11 @@ h3{
     font-size: 1.4em;
     margin-top: 0;
 }
-img{
+/* img{
     width: 100%;
+} */
+ul{
+    list-style-type: none;
 }
 footer{
     padding: 60px 10% 20px;
@@ -191,4 +195,22 @@ footer .team-link{
 }
 .encart a{
     color: #5f4050;
+}
+
+.chiffres-annee{
+    background-color: #6f4b5d;
+    color: white;
+    font-weight: bold;
+}
+.chiffres-annee h2{
+    color: white;
+}
+.chiffres-annee span{
+    font-size: 2em;
+    display: block;
+    font-family: 'Brush Script MT', cursive;
+}
+.chiffres-annee p{
+    transform: rotate(-1deg);
+    max-width: 200px;
 }
