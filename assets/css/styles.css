@@ -10,8 +10,12 @@ body{
 }
 
 section{
-    padding: 40px 15%;
+    padding: 40px 0;
     scroll-margin-top: 60px;
+}
+
+.container{
+    max-width: 1000px;
 }
 
 h2{
@@ -54,16 +58,19 @@ footer .team-link{
 }
 .sticky{
     background-color: #6b8e69;
+    /* background-color: #548553; */
     height: 60px;
     align-items: center;
     padding: 0 10%;
+    font-size: 1.1em;
 }
-.navigation-link{
+
+.nav-link{
     height: fit-content;
     color: whitesmoke;
     text-decoration: none;
 }
-.navigation-link:hover{
+.nav-link:hover{
     color: white;
     text-decoration: underline;
 }
@@ -156,21 +163,16 @@ footer .team-link{
     color: #6b8e69;
 }
 
-.team-link{
-    color: white;
+.btn-primary{
     text-transform: uppercase;
     font-weight: bold;
-    font-size: 1.4em;
-    background-color: #6b8e69;
-    box-shadow: 0 3px 3px 3px lightgray;
-    border-radius: 20px;
-    padding: 10px 25px 7px;
-    text-decoration: none;
-    margin: 40px 70px;
+    font-size: 1.1em;
+    background-color: #6b8e69 !important;
+    padding: 8px 18px;
+    border: none;
 }
-.team-link:hover{
-    color: white;
-    text-decoration: underline;
+.btn-primary:hover, .btn-primary:focus{
+    background-color: #548553 !important;
 }
 .bg-yellow{
     color: rgb(45, 45, 45);
@@ -206,20 +208,21 @@ footer .team-link{
 } */
 
 .team-text{
-    max-width: 330px;
+    max-width: 350px;
     position: absolute;
     top: 0;
     right: 0;
     color: white;
     background-color: #5f4050;
-    transform: translate(-180px, 80px);
-    padding: 20px 25px; 
+    transform: translate(10px, 80px);
+    padding: 22px 30px;
+    line-height: 1.8em;
 }
 
 .encart{
     /* font-size: 14px; */
     padding: 15px;
-    border: 1px solid rgb(50, 50, 50);
+    border: 1px dashed rgb(50, 50, 50);
     /* color: #6f4b5d; */
 }
 .encart p{
@@ -255,6 +258,27 @@ footer .team-link{
     width: 40px;
     margin-right: 10px;
 }
+
 .flower-wrapper >img{
-    width: 100%;
+    max-width: none;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .sticky-wrapper{
+        position: relative;
+    }
+    .sticky{
+        height: initial;
+        padding: 20px 30px;
+    }
+    .team-text{
+        position: relative;
+        transform: none;
+        max-width: none;
+    }
+    .chiffres-annee div p:nth-child(2){
+        top: 0;
+    }
 }
