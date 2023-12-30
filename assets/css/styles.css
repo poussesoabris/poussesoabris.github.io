@@ -44,10 +44,7 @@ footer{
 }
 footer a{
     color: white;
-}
-footer .team-link{
-    background-color: #f7c74b;
-    box-shadow: none;
+    text-decoration: none;
 }
 
 /* sticky nav */
@@ -196,16 +193,22 @@ footer .team-link{
 .btn-primary:hover, .btn-primary:focus{
     background-color: #548553 !important;
 }
+.btn-secondary{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #333;
+    background-color: #f7c74b !important;
+    padding: 8px 18px;
+    border: none;
+}
+.btn-secondary:hover, .btn-secondary:focus{
+    color: #333;
+    text-decoration: underline;
+}
 .bg-yellow{
     color: rgb(45, 45, 45);
     background-color: #f7c74b;
-}
-.team-link.bg-yellow:hover{
-    color: rgb(45, 45, 45);
-}
-
-footer .team-link{
-    margin: 0;
 }
 
 .yellow-spacer{
