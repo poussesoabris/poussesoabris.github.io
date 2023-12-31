@@ -17,6 +17,9 @@ section{
 .container{
     max-width: 1000px;
 }
+.row{
+    margin: 0;
+}
 
 h2{
     color: #6f4b5d;
@@ -38,7 +41,7 @@ ul{
     list-style-type: none;
 }
 footer{
-    padding: 60px 10% 20px;
+    padding: 60px 10% 40px;
     color: white;
     background-color: #6f4b5d;
 }
@@ -75,18 +78,13 @@ footer a{
 .first-section{
     position: relative;
     height: calc(100vh - 60px);
-    padding: 10px 20%;
+    padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     color: white;
     background-color: #010101;
-    /* background: url('/assets/images/COUVERTURE.JPG') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; */
 }
 .banner-img{
     position: absolute;
@@ -122,6 +120,7 @@ footer a{
 .alert-warning{
     position: relative;
     z-index: 2;
+    width: fit-content;
 }
 
 
@@ -305,5 +304,8 @@ footer a{
     }
     .chiffres-annee div p:nth-child(2){
         top: 0;
+    }
+    section{
+        padding: 40px 0 0;
     }
 }
