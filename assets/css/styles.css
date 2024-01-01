@@ -287,6 +287,13 @@ footer a{
     max-width: none;
 }
 
+.partenaires img{
+    max-width: 220px;
+    max-height: 200px;
+}
+.partenaires > div{
+    text-align: center;
+}
 
 @media screen and (max-width: 992px) {
     .sticky-wrapper{
