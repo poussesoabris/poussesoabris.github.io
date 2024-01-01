@@ -58,7 +58,6 @@ footer a{
 }
 .sticky{
     background-color: #6b8e69;
-    /* background-color: #548553; */
     height: 60px;
     align-items: center;
     padding: 0 10%;
@@ -186,7 +185,7 @@ footer a{
     font-weight: bold;
     font-size: 1.1em;
     background-color: #6b8e69 !important;
-    padding: 8px 18px;
+    padding: 8px 18px 6px;
     border: none;
 }
 .btn-primary:hover, .btn-primary:focus{
@@ -198,7 +197,7 @@ footer a{
     font-size: 1.1em;
     color: #333;
     background-color: #f7c74b !important;
-    padding: 8px 18px;
+    padding: 8px 18px 6px;
     border: none;
 }
 .btn-secondary:hover, .btn-secondary:focus{
@@ -245,9 +244,10 @@ footer a{
 
 .encart{
     /* font-size: 14px; */
-    padding: 15px;
-    border: 1px dashed rgb(50, 50, 50);
+    /* padding: 15px; */
+    border-left: 2px dotted #5f4050;
     /* color: #6f4b5d; */
+    margin-bottom: 30px;
 }
 .encart p{
     margin-bottom: 7px;
@@ -262,9 +262,9 @@ footer a{
     font-weight: bold;
 }
 .chiffres-annee span{
-    font-size: 2.8em;
+    font-size: 3.5em;
     display: block;
-    font-family: 'Brush Script MT', cursive;
+    font-family: 'Caveat', handwriting, sans-serif;    
     position: relative;
     bottom: -10px;
     letter-spacing: 3px;
@@ -288,7 +288,6 @@ footer a{
 }
 
 
-
 @media screen and (max-width: 992px) {
     .sticky-wrapper{
         position: relative;
@@ -308,4 +307,9 @@ footer a{
     section{
         padding: 40px 0 0;
     }
+
+    .first-section{
+        height: fit-content;
+    }
 }
+
