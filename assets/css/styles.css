@@ -4,9 +4,10 @@
 body{
     position: absolute;
     margin: 0;
-    font-size: 16px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    font-family: Verdana, Geneva, sans-serif;   
     width: 100%;
+    color: #333;
 }
 
 section{
@@ -23,14 +24,15 @@ section{
 
 h2{
     color: #6f4b5d;
-    font-variant: all-petite-caps;
-    font-size: 1.8em;
+    font-variant: petite-caps;
+    font-size: 1.9em;
     margin-top: 0;
     padding-bottom: 10px;
+    letter-spacing: -1px;
 }
 h3{
     color: #6f4b5d;
-    font-variant: all-petite-caps;
+    font-variant: petite-caps;
     font-size: 1.4em;
     margin-top: 0;
 }
@@ -49,7 +51,9 @@ footer a{
     color: white;
     text-decoration: none;
 }
-
+.police-cursive{
+    font-family: 'Caveat', handwriting, sans-serif;    
+}
 /* sticky nav */
 .sticky-wrapper{
     position: sticky;
@@ -179,26 +183,23 @@ footer a{
     content: '-----';
     color: #6b8e69;
 }
-
-.btn-primary{
+.btn{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.1em;
-    background-color: #6b8e69 !important;
     padding: 8px 18px 6px;
     border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-primary{
+    background-color: #6b8e69 !important;
 }
 .btn-primary:hover, .btn-primary:focus{
     background-color: #548553 !important;
 }
 .btn-secondary{
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 1.1em;
     color: #333;
     background-color: #f7c74b !important;
-    padding: 8px 18px 6px;
-    border: none;
 }
 .btn-secondary:hover, .btn-secondary:focus{
     color: #333;
