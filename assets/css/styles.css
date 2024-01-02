@@ -5,7 +5,7 @@ body{
     position: absolute;
     margin: 0;
     font-size: 15px;
-    font-family: Verdana, Geneva, sans-serif;   
+    font-family: 'Asap', sans-serif;    
     width: 100%;
     color: #333;
 }
@@ -101,7 +101,8 @@ footer a{
     filter: opacity(0.6);
 }
 .main-title{
-    font-size: 1.25em;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.3em;
     font-style: italic;
     text-align: center;
     position: relative;
