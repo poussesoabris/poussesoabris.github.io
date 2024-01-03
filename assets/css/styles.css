@@ -23,6 +23,7 @@ section{
 }
 
 h2{
+    font-family: 'Roboto Slab', serif;
     color: #6f4b5d;
     font-variant: petite-caps;
     font-size: 1.9em;
@@ -31,6 +32,7 @@ h2{
     letter-spacing: -1px;
 }
 h3{
+    font-family: 'Roboto Slab', serif;
     color: #6f4b5d;
     font-variant: petite-caps;
     font-size: 1.4em;
@@ -53,6 +55,9 @@ footer a{
 }
 .police-cursive{
     font-family: 'Caveat', handwriting, sans-serif;    
+}
+#projet blockquote{
+    line-height: 2.2rem
 }
 /* sticky nav */
 .sticky-wrapper{
@@ -174,16 +179,7 @@ footer a{
     justify-content: space-evenly;
     align-items: end;
 }
-.chrono-legend>li{
-    position: relative;
-}
-.chrono-legend>li::after{
-    position: absolute;
-    right: -50px;
-    top: 0px;
-    content: '-----';
-    color: #6b8e69;
-}
+
 .btn{
     text-transform: uppercase;
     font-weight: bold;
