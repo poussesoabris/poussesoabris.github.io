@@ -179,11 +179,10 @@ footer a{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: start;
-    padding-left: 80px;
 }
-.chrono-legend strong{
+/* .chrono-legend strong{
     display: block;
-}
+} */
 
 .btn{
     text-transform: uppercase;
