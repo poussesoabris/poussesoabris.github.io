@@ -285,6 +285,8 @@ footer a{
 .partenaires img{
     max-width: 220px;
     max-height: 200px;
+    padding: 25px;
+    width: 100%;
 }
 .partenaires > div{
     text-align: center;
