@@ -23,21 +23,20 @@ section{
     margin: 0;
 }
 
-h2{
+h2, h3, .page h1{
     font-family: 'Roboto Slab', serif;
     color: #6f4b5d;
     font-variant: petite-caps;
-    font-size: 1.9em;
     margin-top: 0;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 1.9em;
     padding-bottom: 10px;
-    letter-spacing: -1px;
 }
 h3{
-    font-family: 'Roboto Slab', serif;
-    color: #6f4b5d;
-    font-variant: petite-caps;
     font-size: 1.4em;
-    margin-top: 0;
 }
 img{
     max-width: 100%;
@@ -46,9 +45,19 @@ ul{
     list-style-type: none;
 }
 footer{
-    padding: 60px 10% 40px;
+    padding: 40px 10% 20px;
     color: white;
     background-color: #6f4b5d;
+}
+footer .contact{
+    font-size: 1.1em;
+}
+footer .links{
+    justify-content: end;
+    align-items: end;
+}
+footer .links .top-icon{
+    padding: 0 15px;
 }
 footer a{
     color: white;
@@ -316,6 +325,10 @@ footer a{
 
     .first-section{
         height: fit-content;
+    }
+
+    footer .links {
+        align-items: center;
     }
 }
 
