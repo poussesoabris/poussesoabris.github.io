@@ -26,14 +26,17 @@ section{
 h2, h3, .page h1{
     font-family: 'Roboto Slab', serif;
     color: #6f4b5d;
-    font-variant: petite-caps;
+    font-variant-caps: small-caps;
     margin-top: 0;
     font-weight: bold;
 }
+/* h2::first-letter, h3::first-letter, .page h1::first-letter{
+    text-transform: capitalize;
+} */
 
 h2{
     font-size: 1.9em;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 h3{
     font-size: 1.4em;
@@ -74,6 +77,7 @@ footer a{
     position: sticky;
     top: 0;
     z-index: 10;
+    box-shadow: 0px 1px 4px 0 #6f4b5dc7
 }
 .sticky{
     background-color: #6b8e69;
@@ -93,6 +97,12 @@ footer a{
     text-decoration: underline;
 }
 
+.bg-green{
+    background-color: #6b8e69;
+}
+.uppercase{
+    font-variant: small-caps;
+}
 .first-section{
     position: relative;
     height: calc(100vh - 60px);
@@ -250,8 +260,18 @@ footer a{
 }
 
 .encart{
-    border-left: 2px dotted #5f4050;
+    /* border-left: 2px dotted #5f4050; */
+    position: relative;
     margin-bottom: 30px;
+}
+.encart::before{
+    position: absolute;
+    top: 6px;
+    left: -3px;
+    content: ' ';
+    width: 1.5px;
+    height: calc(100% - 12px);
+    background-color: #6f4b5d82;
 }
 .encart p{
     margin-bottom: 7px;
