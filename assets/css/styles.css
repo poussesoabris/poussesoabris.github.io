@@ -33,7 +33,9 @@ h2, h3, .page h1{
 /* h2::first-letter, h3::first-letter, .page h1::first-letter{
     text-transform: capitalize;
 } */
-
+.text-alert{
+    color: rgb(102, 77, 3);
+}
 h2{
     font-size: 1.9em;
     padding-bottom: 15px;
