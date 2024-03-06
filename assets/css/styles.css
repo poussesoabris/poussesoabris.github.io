@@ -354,3 +354,15 @@ footer a{
     }
 }
 
+/* page layout */
+.pageHeader{
+    background: url('/assets/images/home/COUVERTURE-min.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.page ul{
+    list-style-type: disc;
+}

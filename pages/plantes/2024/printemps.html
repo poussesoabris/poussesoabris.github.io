@@ -1,0 +1,48 @@
+---
+title: Pousse Ô Abris, pépinière participative toulousaine
+layout: page
+permalink: /plantes/printemps-2024
+---
+
+<section class="">
+    <h1 class="py-4 text-center">Ventes de printemps</h1>
+    <p class="fst-italic">Rendez-vous à la pépinière, au 192 route de Launaguet, 31200 Toulouse, pour nos prochaines ventes&nbsp;:</p>
+    <ul class="">
+        <li class="pb-2">
+            <strong>samedi 23 mars 2024</strong>&nbsp;- de 10h à 13h pour notre 1ère vente de l'année
+        </li>
+        <li class="pb-2">
+            <strong>mercredi 4 avril 2024</strong>&nbsp;- de 14h à 19h pour nous acheter des plants mais aussi visiter la pépinière et découvrir le projet de l'association
+        </li>
+        <li class="pb-2">
+            <strong>dimanche 21 avril 2024</strong>&nbsp;- de 14h à 17h pour une nouvelle vente avec visite de la pépinière
+        </li>
+        <li class="pb-2">
+            <strong>samedi 27 avril 2024</strong>&nbsp;- de 14h à 17h pour une nouvelle vente
+        </li>
+        <li>
+            <strong>mardi 14 mai 2024</strong>&nbsp;- de 15h à 19h pour la dernière vente de la saison
+        </li>
+    </ul>
+</section>
+
+<section>
+    <h2>Nos plantes actuelles</h2>
+    <p class="fst-italic">Notre fonctionnement étant associatif, les espèces présentées ici sont indicatives, nous ne pouvons vous assurer quelles seront toutes disponibles pour chaque date de vente (stock, aléas de production...).</p>
+    <p>Nos plantes sont vendues au stade de plants dans des godets de 9 ou 15&nbsp;cm.</p>
+   <div class="row row-cols-1 row-cols-md-4 g-4"> 
+        {% assign sortedPlants = site.data.plantesP24.plantes | sort: 'name' %} 
+        {% for plant in sortedPlants %} 
+            <div class="col">
+                <article class="card">
+                    <img src="/assets/images/pages/plantes/{{plant.imgFileName}}" class="card-img-top img-cover" alt="{{plant.name}}" loading="lazy">
+                    <div class="card-body">
+                        <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
+                        <p class="card-text"></p>
+                    </div>
+                </article>
+            </div>       
+        {% endfor %}
+   </div>
+   <p class="py-5 text-center fst-italic">Mais également diverses variétés d'acanthes, de coreopsis, de menthe et autres aromatiques&nbsp;<span class="fst-normal">🌼</span></p>
+</section>
