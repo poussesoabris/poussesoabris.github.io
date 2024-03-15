@@ -24,25 +24,148 @@ permalink: /plantes/printemps-2024
             <strong>mardi 14 mai 2024</strong>&nbsp;- de 15h à 19h pour la dernière vente de la saison
         </li>
     </ul>
+    <p>Nous n’avons pas de terminal bancaire, pensez à amener des espèces ou à sortir votre carnet de chèque des placards&nbsp;!</p>
+    <p class="fst-italic">Merci de privilégier les transports en commun ou le vélo, les places de parking étant limitées dans le quartier.</p>
 </section>
 
-<section>
+<section class="pt-2 pb-5">
     <h2>Nos plantes actuelles</h2>
-    <p class="fst-italic">Notre fonctionnement étant associatif, les espèces présentées ici sont indicatives, nous ne pouvons vous assurer quelles seront toutes disponibles pour chaque date de vente (stock, aléas de production...).</p>
-    <p>Nos plantes sont vendues au stade de plants dans des godets de 9 ou 15&nbsp;cm.</p>
-   <div class="row row-cols-1 row-cols-md-4 g-4"> 
-        {% assign sortedPlants = site.data.plantesP24.plantes | sort: 'name' %} 
-        {% for plant in sortedPlants %} 
-            <div class="col">
-                <article class="card">
-                    <img src="/assets/images/pages/plantes/{{plant.imgFileName}}" class="card-img-top img-cover" alt="{{plant.name}}" loading="lazy">
-                    <div class="card-body">
-                        <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
-                        <p class="card-text"></p>
-                    </div>
-                </article>
-            </div>       
-        {% endfor %}
-   </div>
-   <p class="py-5 text-center fst-italic">Mais également diverses variétés d'acanthes, de coreopsis, de menthes et autres aromatiques&nbsp;<span class="fst-normal">🌼</span></p>
+    <p>La liste de plantes ci-dessous n’est pas exhaustive, nous produisons une centaine de variétés différentes, alors n’hésitez pas à passer pour découvrir les autres.</p>
+    <p class="fst-italic">Nos plantes sont vendues au stade de plants dans des godets de 9 ou 15&nbsp;cm.</p>
+   
+    <div class="text-center pb-3">
+        <img src="/assets/images/pages/plantes/plantes.JPG" alt="exemple de plants" class="w-50">
+    </div>
+    <article class="py-3">
+        <h3 class="pb-2">Nos Grimpantes</h3>
+        <div class="">
+            {% assign sortedPlants = site.data.plantesP24.plantes | sort: 'name' %} 
+            {% for plant in sortedPlants %}             
+            {% if plant.tags contains 'grimpante' %} 
+                <div class="col">
+                    <article class="card">
+                        <!--<img src="/assets/images/pages/plantes/{{plant.imgFileName}}" class="card-img-top img-cover" alt="{{plant.name}}" loading="lazy">-->
+                        <div class="card-body">
+                            <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
+                            <p class="card-text"></p>
+                        </div>
+                    </article>
+                </div> 
+            {% endif %}       
+            {% endfor %}
+        </div>
+    </article>
+    <article class="py-3">
+        <h3 class="pb-2">Nos Arbres</h3>
+        <div class="">
+            {% assign sortedPlants = site.data.plantesP24.plantes | sort: 'name' %} 
+            {% for plant in sortedPlants %} 
+            {% if plant.tags contains 'arbre' %} 
+                <div class="col">
+                    <article class="card">
+                        <div class="card-body">
+                            <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
+                            <p class="card-text"></p>
+                        </div>
+                    </article>
+                </div> 
+            {% endif %}       
+            {% endfor %}
+        </div>
+    </article>
+    <article class="py-3">
+        <h3 class="pb-2">Nos Aromatiques</h3>
+        <div class="">
+            {% assign sortedPlants = site.data.plantesP24.plantes | sort: 'name' %} 
+            {% for plant in sortedPlants %} 
+            {% if plant.tags contains 'aromatique' %} 
+                <div class="col">
+                    <article class="card">
+                        <div class="card-body">
+                            <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
+                            <p class="card-text"></p>
+                        </div>
+                    </article>
+                </div> 
+            {% endif %}       
+            {% endfor %}
+        </div>
+    </article>
+    <article class="py-3">
+        <h3 class="pb-2">Nos Comestibles</h3>
+        <div class="">
+            {% assign sortedPlants = site.data.plantesP24.plantes | sort: 'name' %} 
+            {% for plant in sortedPlants %}             
+            {% if plant.tags contains 'comestible' %} 
+                <div class="col">
+                    <article class="card">
+                        <div class="card-body">
+                            <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
+                            <p class="card-text"></p>
+                        </div>
+                    </article>
+                </div> 
+            {% endif %}       
+            {% endfor %}
+        </div>
+    </article>
+    <article class="py-3">
+        <h3 class="pb-2">Couvre-sols</h3>
+        <div class="">
+            {% assign sortedPlants = site.data.plantesP24.plantes | sort: 'name' %} 
+            {% for plant in sortedPlants %} 
+            {% if plant.tags contains 'couvre-sol' %} 
+                <div class="col">
+                    <article class="card">
+                        <div class="card-body">
+                            <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
+                            <p class="card-text"></p>
+                        </div>
+                    </article>
+                </div> 
+            {% endif %}       
+            {% endfor %}
+        </div>
+    </article>
+    <article class="pt-3 pb-5">
+        <h3 class="pb-2">Utiles au jardin</h3>
+        <div class="">
+            {% assign sortedPlants = site.data.plantesP24.plantes | sort: 'name' %} 
+            {% for plant in sortedPlants %} 
+            {% if plant.tags contains 'utile' %} 
+                <div class="col">
+                    <article class="card">
+                        <div class="card-body">
+                            <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
+                            <p class="card-text"></p>
+                        </div>
+                    </article>
+                </div> 
+            {% endif %}       
+            {% endfor %}
+        </div>
+    </article>    
+   
+    <p class="">Notre fonctionnement étant associatif, les espèces présentées ici sont indicatives, nous ne pouvons vous assurer quelles seront toutes disponibles pour chaque date de vente (stock, aléas de production...).</p>
+   
+    <p class="fst-italic pb-3">En achetant des plantes chez Pousses Ô Abris, vous soutenez les activités de la pépinière et nous aidez à avancer dans nos projets de végétalisation et de sensibilisation à l’environnement, merci&nbsp;!
+    <br>Pour suivre nos actions, vous pouvez vous inscrire à notre <a href="https://framaforms.org/newsletter-1699284619" target="_blank" class="text-green">newsletter</a>, consulter notre <a href="https://framagenda.org/apps/calendar/p/6KYmb66YYGpe36Jn/dayGridMonth/now" target="_blank" class="text-green">agenda</a>, ou nous suivre sur les réseaux sociaux (sur <a href="https://www.facebook.com/poussesoabris31" target="_blank" aria-label="lien vers la page facebook" class="text-green">facebook</a>, <a href="https://www.instagram.com/pousses.o.abris/" target="_blank" aria-label="lien vers la page instagram" class="text-green">instagram </a>, ou <a href="https://www.linkedin.com/company/pousses-%C3%B4-abris/" target="_blank" aria-label="lien vers la vers page linkedin" class="text-green">linkedin</a>).
+        
 </section>
+
+
+
+<!--<div class="row row-cols-1 row-cols-md-4 g-4"> 
+    {% assign sortedPlants = site.data.plantesP24.plantes | sort: 'name' %} 
+    {% for plant in sortedPlants %} 
+        <div class="col">
+            <article class="card">
+                <img src="/assets/images/pages/plantes/{{plant.imgFileName}}" class="card-img-top img-cover" alt="{{plant.name}}" loading="lazy">
+                <div class="card-body">
+                    <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
+                    <p class="card-text"></p>
+                </div>
+            </article>
+        </div>       
+    {% endfor %}
+</div>-->

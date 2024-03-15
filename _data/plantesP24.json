@@ -2,87 +2,159 @@
     "plantes": [
         {
             "name": "Chèvrefeuille",
-            "latinName": "Lonicera caprifolium",
-            "imgFileName": "plantes.JPG",
+            "latinName": "Lonicera",
+            "imgFileName": "lonicera.JPG",
             "tags": ["ligneuse", "grimpante"]
         },
         {
             "name": "Glycine",
-            "latinName": "Wisteria",
+            "latinName": "Wisteria floribunda",
             "imgFileName": "plantes.JPG",
             "tags": ["ligneuse", "grimpante"]
-        },
-        {
-            "name": "Cardon des roches dansant",
-            "latinName": "Cynara cardunculus",
-            "imgFileName": "plantes.JPG",
-            "tags": ["bisannuelle", "herbacée"]
-        },
-        {
-            "name": "Hélichryse italienne",
-            "latinName": "Helichrysum italicum",
-            "imgFileName": "plantes.JPG",
-            "tags": ["vivace", "buissonnante"]
-        },
-        {
-            "name": "Achillée millefeuille",
-            "latinName": "Achillea millefolium L.",
-            "imgFileName": "plantes.JPG",
-            "tags": ["vivace", "herbacée"]
-        },
-        {
-            "name": "Orpin des jardins",
-            "latinName": "Sedum spectabile",
-            "imgFileName": "plantes.JPG",
-            "tags": [""]
-        },
-        {
-            "name": "Romarin",
-            "latinName": "Salvia Rosmarinus",
-            "imgFileName": "plantes.JPG",
-            "tags": [""]
-        },
-        {
-            "name": "Véronique officinale",
-            "latinName": "Veronica officinalis",
-            "imgFileName": "plantes.JPG",
-            "tags": [""]
         },
         {
             "name": "Rosier liane American Pillar",
             "latinName": "Rosa American Pillar",
             "imgFileName": "plantes.JPG",
-            "tags": [""]
+            "tags": ["grimpante"]
         },
         {
-            "name": "Ficoïde jaune",
-            "latinName": "Delosperma lineare",
+            "name": "Abricotier",
+            "latinName": "Prunus armeniaca",
             "imgFileName": "plantes.JPG",
-            "tags": [""]
-        },
-        {
-            "name": "Centaurée élégante",
-            "latinName": "Centaurea bella",
-            "imgFileName": "plantes.JPG",
-            "tags": ["vivace", "rampante"]
+            "tags": ["arbre"]
         },
         {
             "name": "Arbre aux faisans",
             "latinName": "Leycesteria formosa",
             "imgFileName": "plantes.JPG",
-            "tags": ["arbuste"]
+            "tags": ["arbre"]
+        },
+        {
+            "name": "Chêne vert",
+            "latinName": "Quercus ilex",
+            "imgFileName": "plantes.JPG",
+            "tags": ["arbre"]
+        },
+        {
+            "name": "Saule des vaniers",
+            "latinName": "Salix viminalis",
+            "imgFileName": "plantes.JPG",
+            "tags": ["arbre"]
+        },
+        {
+            "name": "Néflier",
+            "latinName": "Mespilus germanica",
+            "imgFileName": "plantes.JPG",
+            "tags": ["arbre"]
+        },
+        {
+            "name": "Mélisse",
+            "latinName": "Melissa officinalis",
+            "imgFileName": "plantes.JPG",
+            "tags": ["aromatique"]
+        },
+        {
+            "name": "Menthe chocolat",
+            "latinName": "Mentha x Piperita ‘Chocolate mint’",
+            "imgFileName": "plantes.JPG",
+            "tags": ["aromatique"]
+        },
+        {
+            "name": "Origan doré",
+            "latinName": "Origanum vulgare ‘Golden Shine’",
+            "imgFileName": "origanum_vulgare.JPG",
+            "tags": ["aromatique"]
+        },
+        {
+            "name": "Sauge officinale",
+            "latinName": "Salvia officinalis",
+            "imgFileName": "plantes.JPG",
+            "tags": ["aromatique"]
+        },
+        {
+            "name": "Romarin",
+            "latinName": "Rosmarinus officinalis",
+            "imgFileName": "plantes.JPG",
+            "tags": ["aromatique"]
+        },
+        {
+            "name": "Artichaut",
+            "latinName": "Cynara scolymus",
+            "imgFileName": "plantes.JPG",
+            "tags": ["comestible"]
+        },
+        {
+            "name": "Fraisier",
+            "latinName": "Fragania",
+            "imgFileName": "plantes.JPG",
+            "tags": ["comestible"]
+        },
+        {
+            "name": "Oignon Rocambole",
+            "latinName": "Allium x proliferum",
+            "imgFileName": "plantes.JPG",
+            "tags": ["comestible"]
+        },
+        {
+            "name": "Rhubarbe",
+            "latinName": "Rheum rhaponticum",
+            "imgFileName": "plantes.JPG",
+            "tags": ["comestible"]
+        },
+        {
+            "name": "Roquette sauvage",
+            "latinName": "Diplotaxis tenuifolia",
+            "imgFileName": "plantes.JPG",
+            "tags": ["comestible"]
+        },
+        {
+            "name": "Achillée à feuilles de Criste",
+            "latinName": "Achillea critmifolia",
+            "imgFileName": "achillea_critmifolia.JPG",
+            "tags": ["couvre-sol"]
         },
         {
             "name": "Epiaire Laineuse",
             "latinName": "Stachys byzantina",
+            "imgFileName": "stachys_byzantina.JPG",
+            "tags": ["couvre-sol"]
+        },
+        {
+            "name": "Ficoïde jaune",
+            "latinName": "Delosperma lineare",
             "imgFileName": "plantes.JPG",
-            "tags": [""]
+            "tags": ["couvre-sol"]
         },
         {
             "name": "Lippia",
             "latinName": "Phyla nodiflora",
-            "imgFileName": "plantes.JPG",
+            "imgFileName": "lippia.JPG",
             "tags": ["vivace", "couvre-sol"]
+        },
+        {
+            "name": "Véronique officinale",
+            "latinName": "Veronica officinalis",
+            "imgFileName": "plantes.JPG",
+            "tags": ["couvre-sol"]
+        },
+        {
+            "name": "Consoude de Russie",
+            "latinName": "Symphytum officinalis",
+            "imgFileName": "plantes.JPG",
+            "tags": ["utile"]
+        },
+        {
+            "name": "Tanaisie",
+            "latinName": "Tanacetum vulgare",
+            "imgFileName": "tanaisie.JPG",
+            "tags": ["utile"]
+        },
+        {
+            "name": "Armoise arborescente",
+            "latinName": "Artemisia arborescens",
+            "imgFileName": "plantes.JPG",
+            "tags": ["utile"]
         }
     ]
     

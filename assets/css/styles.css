@@ -99,6 +99,9 @@ footer a{
     text-decoration: underline;
 }
 
+.text-green{
+    color: #6b8e69;
+}
 .bg-green{
     background-color: #6b8e69;
 }

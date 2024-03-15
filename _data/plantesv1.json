@@ -1,0 +1,89 @@
+{
+    "plantes": [
+        {
+            "name": "Chèvrefeuille",
+            "latinName": "Lonicera caprifolium",
+            "imgFileName": "plantes.JPG",
+            "tags": ["ligneuse", "grimpante"]
+        },
+        {
+            "name": "Glycine",
+            "latinName": "Wisteria",
+            "imgFileName": "plantes.JPG",
+            "tags": ["ligneuse", "grimpante"]
+        },
+        {
+            "name": "Cardon des roches dansant",
+            "latinName": "Cynara cardunculus",
+            "imgFileName": "plantes.JPG",
+            "tags": ["bisannuelle", "herbacée"]
+        },
+        {
+            "name": "Hélichryse italienne",
+            "latinName": "Helichrysum italicum",
+            "imgFileName": "plantes.JPG",
+            "tags": ["vivace", "buissonnante"]
+        },
+        {
+            "name": "Achillée millefeuille",
+            "latinName": "Achillea millefolium L.",
+            "imgFileName": "plantes.JPG",
+            "tags": ["vivace", "herbacée"]
+        },
+        {
+            "name": "Orpin des jardins",
+            "latinName": "Sedum spectabile",
+            "imgFileName": "sedum_spectabile.JPG",
+            "tags": [""]
+        },
+        {
+            "name": "Romarin",
+            "latinName": "Salvia Rosmarinus",
+            "imgFileName": "plantes.JPG",
+            "tags": [""]
+        },
+        {
+            "name": "Véronique officinale",
+            "latinName": "Veronica officinalis",
+            "imgFileName": "plantes.JPG",
+            "tags": [""]
+        },
+        {
+            "name": "Rosier liane American Pillar",
+            "latinName": "Rosa American Pillar",
+            "imgFileName": "plantes.JPG",
+            "tags": [""]
+        },
+        {
+            "name": "Ficoïde jaune",
+            "latinName": "Delosperma lineare",
+            "imgFileName": "plantes.JPG",
+            "tags": [""]
+        },
+        {
+            "name": "Centaurée élégante",
+            "latinName": "Centaurea bella",
+            "imgFileName": "plantes.JPG",
+            "tags": ["vivace", "rampante"]
+        },
+        {
+            "name": "Arbre aux faisans",
+            "latinName": "Leycesteria formosa",
+            "imgFileName": "plantes.JPG",
+            "tags": ["arbuste"]
+        },
+        {
+            "name": "Epiaire Laineuse",
+            "latinName": "Stachys byzantina",
+            "imgFileName": "stachys_byzantina.JPG",
+            "tags": [""]
+        },
+        {
+            "name": "Lippia",
+            "latinName": "Phyla nodiflora",
+            "imgFileName": "lippia.JPG",
+            "tags": ["vivace", "couvre-sol"]
+        }
+    ]
+    
+}
