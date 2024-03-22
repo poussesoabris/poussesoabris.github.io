@@ -25,7 +25,7 @@ section{
 
 h2, h3, .page h1{
     font-family: 'Roboto Slab', serif;
-    color: #6f4b5d;
+    color: #703A58;
     font-variant-caps: small-caps;
     margin-top: 0;
     font-weight: bold;
@@ -52,7 +52,7 @@ ul{
 footer{
     padding: 40px 10% 20px;
     color: white;
-    background-color: #6f4b5d;
+    background-color: #703A58;
 }
 footer .contact{
     font-size: 1.1em;
@@ -79,7 +79,7 @@ footer a{
     position: sticky;
     top: 0;
     z-index: 10;
-    box-shadow: 0px 1px 4px 0 #6f4b5dc7
+    box-shadow: 0px 1px 4px 0 #703A58c7
 }
 .sticky{
     background-color: #6b8e69;
@@ -166,21 +166,21 @@ footer a{
 }
 /* .objectifs li{
     padding: 25px;
-    border: 1px solid #6f4b5d;
+    border: 1px solid #703A58;
 } */
 .objectifs-nb{
     display: inline;
     text-align: start;
     font-size: 1.3em;
     font-style: italic;
-    color: #6f4b5d;
+    color: #703A58;
     /* padding-bottom: 10px; */
     padding-right: 10px;
 }
 
 .ouverture{
     color: white;
-    background-color: #6f4b5d;
+    background-color: #703A58;
     font-size: 1.5em;
     text-align: center;
 }
@@ -258,14 +258,14 @@ footer a{
     top: 0;
     right: 0;
     color: white;
-    background-color: #5f4050;
+    background-color: #703A58;
     transform: translate(10px, 80px);
     padding: 22px 30px;
     line-height: 1.8em;
 }
 
 .encart{
-    /* border-left: 2px dotted #5f4050; */
+    /* border-left: 2px dotted #703A58; */
     position: relative;
     margin-bottom: 30px;
 }
@@ -276,17 +276,17 @@ footer a{
     content: ' ';
     width: 1.5px;
     height: calc(100% - 12px);
-    background-color: #6f4b5d82;
+    background-color: #703A5882;
 }
 .encart p{
     margin-bottom: 7px;
 }
 .encart a{
-    color: #5f4050;
+    color: #703A58;
 }
 
 .chiffres-annee{
-    background-color: #6f4b5d;
+    background-color: #703A58;
     color: white;
     font-weight: bold;
 }
@@ -376,7 +376,7 @@ footer a{
 }
 .bulle-ventes p{
     position: absolute;
-    top: 50%;
+    top: 46%;
     transform: translate(-50%, -50%);
     width: 70%;
     left: 50%;
@@ -389,19 +389,18 @@ footer a{
 }
 .bulle-ventes img{
     width: 100%;
-    height: 100%;
+    height: 165px;
 }
 
 .img-ventes{
     max-width: 600px;
 }
 
-@media screen and (max-width: 643px) {
+@media screen and (max-width: 464px) {
     .bulle-ventes p{
-        top: 54%;
         font-size: 15px;
     }
-    .bulle-ventes{
-        height: 230px;
+    .bulle-ventes img{
+        height: 220px;
     }
 }
