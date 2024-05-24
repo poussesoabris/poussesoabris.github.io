@@ -269,15 +269,7 @@ footer a{
     position: relative;
     margin-bottom: 30px;
 }
-.encart::before{
-    position: absolute;
-    top: 6px;
-    left: -3px;
-    content: ' ';
-    width: 1.5px;
-    height: calc(100% - 12px);
-    background-color: #703A5882;
-}
+
 .encart p{
     margin-bottom: 7px;
 }
