@@ -397,6 +397,11 @@ footer a{
     }
 }
 
+.summer-events{
+    background-color: #f2e7d1;
+    padding: 26px;
+    border-radius: 5px;
+}
 
 .summer-event{
     display: flex;
@@ -405,6 +410,7 @@ footer a{
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 20px;
+    background-color: white;
 }
 
 .summer-event h2{
@@ -457,4 +463,28 @@ footer a{
 
 .summer-event-content > div{
     font-size: 17px;
+}
+
+
+@media screen and (max-width: 680px)  {
+    .summer-event{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .summer-event-content, .summer-event-time, .summer-event-date{
+        width: 100%;
+    }
+    .summer-event-date{
+        word-spacing: normal;
+    }
+    .summer-event-time{
+        flex-direction: row;
+        padding-top: 10px;
+    }
+    .summer-event-time a{
+        margin-top: 5px;
+        display: block;
+        padding: 4px 12px;
+    }
 }
