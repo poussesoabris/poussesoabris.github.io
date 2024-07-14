@@ -1,0 +1,76 @@
+{
+    "evenements": [
+        {
+            "name": "Chantier hebdomadaire",
+            "place": "Pépinière de Pousses Ô Abris",
+            "date": "Mardi 16 juillet",
+            "time": "9h30 - 12h30",
+            "inscription": false
+        },
+        {
+            "name": "Chantier hebdomadaire",
+            "place": "Pépinière de Pousses Ô Abris",
+            "date": "Mercredi 17 juillet",
+            "time": "9h30 - 12h30",
+            "inscription": false
+        },
+        {
+            "name": "Visite du Centre Social",
+            "place": "Centre Social des Izards Trois-Cocus",
+            "date": "Mardi 23 juillet",
+            "time": "10h - 12h",
+            "description": "Se rapprocher du centre social"
+        },
+        {
+            "name": "Chantier hebdomadaire",
+            "place": "Pépinière de Pousses Ô Abris",
+            "date": "Mardi 23 juillet",
+            "time": "15h - 18h",
+            "inscription": false
+        },
+        {
+            "name": "Chantier hebdomadaire",
+            "place": "Pépinière de Pousses Ô Abris",
+            "date": "Mercredi 24 juillet",
+            "time": "14h30 - 16h30",
+            "inscription": true,
+            "link": "https://framaforms.org/atelier-cuisine-a-la-pepiniere-24-juillet-1719577536"
+        },
+        {
+            "name": "Chantier hebdomadaire",
+            "place": "Pépinière de Pousses Ô Abris",
+            "date": "Jeudi 25 juillet",
+            "time": "17h - 19h",
+            "inscription": true,
+            "link": "https://www.helloasso.com/associations/reflets-cpie-terres-toulousaines/evenements/animation-potager-des-villes-chez-pousses-o-abris"
+        },
+        {
+            "name": "Chantier hebdomadaire",
+            "place": "Pépinière de Pousses Ô Abris",
+            "date": "Mardi 30 juillet",
+            "time": "9h30-12h30",
+            "inscription": false
+        },
+        {
+            "name": "Chantier hebdomadaire",
+            "place": "Pépinière de Pousses Ô Abris",
+            "date": "Mercredi 31 juillet",
+            "time": "9h30 - 12h30",
+            "inscription": false
+        },
+        {
+            "name": "Atelier cuisine",
+            "place": "Pépinière de Pousses Ô Abris / Stade des Violettes",
+            "date": "Vendredi 2 aout",
+            "time": "9h/9h40 - 12h",
+            "inscription": false
+        },
+        {
+            "name": "Rue des enfants",
+            "place": "Rue des Chamois, 31200 Toulouse (Métro Trois-Cocus)",
+            "date": "Samedi 3 aout",
+            "time": "16h - 19h",
+            "inscription": false
+        }
+    ]
+}

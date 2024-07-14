@@ -396,3 +396,65 @@ footer a{
         height: 220px;
     }
 }
+
+
+.summer-event{
+    display: flex;
+    justify-content: space-between;
+    border: #703A58 3px solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.summer-event h2{
+    padding-top: 8px;
+    margin-top: 10px;
+    border-top: #a4b6a4 2px solid;
+    margin-bottom: 0;
+    padding-bottom: 8px;
+    font-variant-caps: inherit;
+}
+
+.summer-event-date{
+    color: #703A58;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    word-spacing: 280px;
+    width: 15%;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.summer-event-time{
+    text-align: start;
+    color: #548553;
+    font-size: 1.2em;
+    width: 15%;
+    padding-left: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.summer-event-time-info{
+    font-size: 16px;
+}
+
+.summer-event-time a{
+    color:#333;
+    background-color: #f7c74b;
+    border: #333 1px solid;
+    border-radius: 5px;
+    padding: 7px 14px;
+    text-decoration: none;
+}
+
+.summer-event-content{
+    width: 70%;
+    color: #703A58;
+}
+
+.summer-event-content > div{
+    font-size: 17px;
+}

@@ -1,0 +1,37 @@
+---
+title: Pousse Ô Abris, pépinière participative toulousaine
+layout: page
+permalink: /programme-ete
+---
+
+<div class="py-5 mb-5 text-center">
+    <h1 class="mb-4">Programme de l'été</h1>
+    <p>Pousses Ô Abris pimente votre été avec quelques événements incontournables ! </p>
+    <p><em>Attention ! Quelques-uns de ces événements nécessitent une inscription (lien sur l'événement)</em></p>    
+    <p class="mb-4">Durant l'été, les horaires des chantiers peuvent être modifiés pour éviter la chaleur 🌡️☀️ merci de les vérifier avant de venir à la pépinière pendant cette période 🙏</p>
+    <div>
+            {% assign events = site.data.juillet2024.evenements %} 
+            {% for event in events %}  
+            <div class="summer-event">
+                <div class="summer-event-date">
+                    {{event.date}}
+                </div>
+                <div class="summer-event-content">
+                    <h2>{{event.name}}</h2>
+                    <div>{{event.place}}</div>
+                </div>
+                <div class="summer-event-time">
+                    <div>{{event.time}}</div>
+                    <div class="summer-event-time-info">
+                        {% if event.inscription == true %} 
+                        <a href="{{event.link}}" target="_blank">inscription</a>
+                        {% else if event.description %} 
+                        {{event.description}}
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            {% endfor %}  
+    </div>
+</div>
