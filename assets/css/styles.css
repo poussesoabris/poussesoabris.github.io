@@ -467,6 +467,13 @@ footer a{
 
 
 @media screen and (max-width: 680px)  {
+    .summer-events{
+        width: 100vw;
+        margin-left: -12px;
+        border-radius: 0;
+        padding: 15px;
+    }
+
     .summer-event{
         flex-direction: column;
         justify-content: center;
@@ -480,11 +487,20 @@ footer a{
     }
     .summer-event-time{
         flex-direction: row;
+        align-items: center;
         padding-top: 10px;
+    }
+    .summer-event-time-info{
+        padding-left: 20px;
     }
     .summer-event-time a{
         margin-top: 5px;
         display: block;
         padding: 4px 12px;
+    }
+
+    .summer-event-time .la-clock.d-none{
+        padding-right: 5px;
+        display: inline !important;
     }
 }
