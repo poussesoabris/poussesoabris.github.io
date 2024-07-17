@@ -12,6 +12,7 @@ permalink: /programme-ete
     <div class="summer-events">
             {% assign events = site.data.juillet2024.evenements %} 
             {% for event in events %}  
+            {% if forloop.index > 2 %}
             <div class="summer-event">
                 <div class="summer-event-date">
                     {{event.date}}
@@ -31,7 +32,7 @@ permalink: /programme-ete
                     </div>
                 </div>
             </div>
-
+            {% endif %}  
             {% endfor %}  
     </div>
 </div>
