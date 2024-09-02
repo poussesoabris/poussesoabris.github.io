@@ -517,3 +517,8 @@ footer a{
 .oa-preview li a{
     color: #333;
 }
+
+.agenda .chakra-linkbox{
+    border-radius: 10px;
+    overflow: hidden;
+}
