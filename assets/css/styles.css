@@ -522,3 +522,10 @@ footer a{
     border-radius: 10px;
     overflow: hidden;
 }
+
+
+.plant-img-row{
+    max-height: 380px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}

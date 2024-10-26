@@ -28,7 +28,9 @@
             "name": "Arbre aux faisans",
             "latinName": "Leycesteria formosa",
             "imgFileName": "plantes.JPG",
-            "tags": ["arbre"]
+            "tags": ["arbre"],
+            "details": "<p>🗻 L'arbre aux faisans, aussi appelé Chèvrefeuille de l'Himalaya, est un arbuste qui se développe tout particulièrement dans un climat tempéré ou subtropical, comme dans sa région d'origine.</p><p>🌤 Il s'adapte à une exposition mi-ombre, mais fleurit davantage s'il est en plein soleil. Rustique, il encaisse des températures négatives jusqu'à -15°C. Il peut mesurer jusqu'à 2m de hauteur et 2m de largeur, parfait pour des haies fleuries&nbsp;!</p><p>🥀L'arbre aux faisans est doté de magnifiques fleurs blanches et pourpres tombant en grappes de juillet à octobre. Son feuillage vert foncé est semi-persistant.</p><p>🦆 On l’appelle arbre aux faisans, car ses petites grappes de baies pourpres au parfum de caramel attirent les oiseaux et tout particulièrement les faisans. Comestibles, elles peuvent aussi être utilisées en cuisine pour relever les viandes.</p><p>✂ Ce bel arbuste aura besoin d'une taille en hiver, mais son caractère robuste ne nécessite que peu d'entretien pour orner de la plus belle des manières vos haies en été&nbsp;!</p>",
+            "detailsImg": ["arbre-aux-faisans-1.jpg","arbre-aux-faisans-2.jpg"]
         },
         {
             "name": "Chêne vert",

@@ -3,7 +3,7 @@ title: Pousse Ô Abris, pépinière participative toulousaine
 layout: page
 permalink: /plantes/printemps-2024
 ---
-
+  
 <section class="">
     <h1 class="py-4 text-center">Ventes de printemps</h1>
     <p class="fst-italic">Rendez-vous à la pépinière, au 192 route de Launaguet, 31200 Toulouse, pour nos prochaines ventes&nbsp;:</p>
@@ -51,7 +51,6 @@ permalink: /plantes/printemps-2024
                         <!--<img src="/assets/images/pages/plantes/{{plant.imgFileName}}" class="card-img-top img-cover" alt="{{plant.name}}" loading="lazy">-->
                         <div class="card-body">
                             <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
-                            <p class="card-text"></p>
                         </div>
                     </article>
                 </div> 
@@ -67,9 +66,48 @@ permalink: /plantes/printemps-2024
             {% if plant.tags contains 'arbre' %} 
                 <div class="col">
                     <article class="card">
-                        <div class="card-body">
-                            <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
-                            <p class="card-text"></p>
+                        <div class="card-body d-md-flex justify-content-between">
+                            <div>
+                                <h3 class="card-title d-inline">{{plant.name}}</h3> - <em>{{plant.latinName}}</em>                
+                                <p class="card-text"></p>
+                            </div>
+                            {% if plant.details %} 
+                                <div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal">
+                                        Détails
+                                    </button>
+                                
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="modal" tabindex="-1" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5 ps-2" id="staticBackdropLabel">{{plant.name}}</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="row plant-img-row">
+                                                        <div class="col-5">
+                                                          <img src="/assets/images/pages/plantes/bdd/arbre-aux-faisans-1.jpg" class="d-block w-100" alt="...">
+                                                        </div>
+                                                        <div class="col-7">
+                                                          <img src="/assets/images/pages/plantes/bdd/arbre-aux-faisans-2.jpg" class="d-block w-100" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        {{ plant.details | newline_to_br }}
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default p-1" data-bs-dismiss="modal">Fermer</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %} 
+                        </div>
                         </div>
                     </article>
                 </div> 
