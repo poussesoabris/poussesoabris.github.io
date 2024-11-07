@@ -89,12 +89,12 @@ footer a{
     font-size: 1.1em;
 }
 
-.nav-link{
+.sticky .nav-link{
     height: fit-content;
     color: whitesmoke;
     text-decoration: none;
 }
-.nav-link:hover{
+.sticky .nav-link:hover{
     color: white;
     text-decoration: underline;
 }

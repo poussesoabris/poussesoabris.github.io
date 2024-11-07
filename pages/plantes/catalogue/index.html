@@ -1,0 +1,112 @@
+---
+title: Pousse Ô Abris, pépinière participative toulousaine
+layout: page
+permalink: /plantes/catalogue
+---
+  
+<section class="">
+    <h1 class="py-4 text-center">Notre catalogue de plantes</h1>
+    <div class="row py-3">
+        <div class="col-md-7">
+            <img src="/assets/images/pages/plantes/plantes.JPG" alt="exemple de plants" class="img-thumbnail img-ventes w-100">
+        </div>
+        <div class="col-md-5 d-flex flex-column justify-content-center">
+            <p>La liste de plantes ci-dessous n’est pas exhaustive, nous produisons une centaine de variétés différentes qui peut évoluer en fonction des saisons, alors n’hésitez pas à passer à la pépinière pour découvrir nos pépites actuelles.</p>
+            <p class="fst-italic">Nos plantes sont vendues au stade de plants dans des godets de 9 ou 15&nbsp;cm.</p>
+        </div>
+    </div>
+   
+   
+    <article class="py-3">
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Toutes nos plantes</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Grimpantes</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Arbres</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Couvre-sols</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="a-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Aromatiques</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#disabled-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Utiles au jardin</button>
+              </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="contact-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="a-tab-pane" role="tabpanel" aria-labelledby="a-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="b-tab-pane" role="tabpanel" aria-labelledby="b-tab" tabindex="0">...</div>
+          </div>
+          
+    
+        <div class="">
+            {% assign sortedPlants = site.data.plantes.plantes | sort: 'name' %} 
+            {% for plant in sortedPlants %} 
+                <div class="col">
+                    <article class="card">
+                        <div class="card-body d-md-flex justify-content-between">
+                            <div>
+                                <h3 class="card-title d-inline">{{plant.nom_vernaculaire}}</h3> - <em>{{plant.nom_latin}}</em>                
+                                <p class="card-text"></p>
+                            </div>
+                            {% if plant.un_jour_une_pousse %} 
+                                <div>
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="" data-bs-toggle="modal" data-bs-target="#modal">
+                                        Détails
+                                    </button>
+                                
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="modal" tabindex="-1" aria-hidden="true">
+                                        <div class="modal-dialog modal-lg">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h1 class="modal-title fs-5 ps-2" id="staticBackdropLabel">{{plant.nom_vernaculaire}}</h1>
+                                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    <div class="row plant-img-row">
+                                                        <div class="col-5">
+                                                          <img src="/assets/images/pages/plantes/bdd/arbre-aux-faisans-1.jpg" class="d-block w-100" alt="...">
+                                                        </div>
+                                                        <div class="col-7">
+                                                          <img src="/assets/images/pages/plantes/bdd/arbre-aux-faisans-2.jpg" class="d-block w-100" alt="...">
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        {{ plant.un_jour_une_pousse | newline_to_br }}
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-default p-1" data-bs-dismiss="modal">Fermer</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endif %} 
+                        </div>
+                    </article>
+                </div> 
+            {% endfor %}
+        </div>
+    </article>
+  
+   
+    <p class="">Notre fonctionnement étant associatif, les espèces présentées ici sont indicatives, nous ne pouvons vous assurer quelles seront toutes disponibles pour chaque date de vente (stock, aléas de production...).</p>
+   
+    <p class="fst-italic pb-3">En achetant des plantes chez Pousses Ô Abris, vous soutenez les activités de la pépinière et nous aidez à avancer dans nos projets de végétalisation et de sensibilisation à l’environnement, merci&nbsp;!
+    <br>Pour suivre nos actions, vous pouvez vous inscrire à nos <a href="https://framaforms.org/inscription-aux-flash-infos-de-pousses-o-abris-1725445015" target="_blank" class="text-green">flash infos</a>, consulter notre <a href="https://www.poussesoabris.fr/agenda" class="text-green">agenda</a>, ou nous suivre sur les réseaux sociaux (sur <a href="https://www.facebook.com/poussesoabris31" target="_blank" aria-label="lien vers la page facebook" class="text-green">facebook</a>, <a href="https://www.instagram.com/pousses.o.abris/" target="_blank" aria-label="lien vers la page instagram" class="text-green">instagram </a>, ou <a href="https://www.linkedin.com/company/pousses-%C3%B4-abris/" target="_blank" aria-label="lien vers la vers page linkedin" class="text-green">linkedin</a>).
+        
+</section>
+
+
