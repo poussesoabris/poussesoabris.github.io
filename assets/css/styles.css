@@ -208,7 +208,7 @@ footer a{
     display: block;
 } */
 
-.btn{
+.homepage .btn{
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.1em;
@@ -361,7 +361,19 @@ footer a{
 .page ul{
     list-style-type: disc;
 }
-
+.catalogue ul.nav-pills{
+    list-style-type: none;
+}
+.catalogue button.nav-link.active{
+    background-color: #703A58;
+}
+.catalogue button.nav-link{
+    color: #703A58;
+}
+/* .catalogue .detail-btn{
+    color: white;
+    background-color: #f7c74b;
+} */
 
 .bulle-ventes{
     position: relative;

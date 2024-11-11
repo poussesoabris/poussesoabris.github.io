@@ -19,7 +19,8 @@
             "nom_latin": "Achillea millefolium",
             "tag": "",
             "un_jour_une_pousse": "<p>🌿 Jolie plante de la famille des astéracées, l'achillée Millefeuille est une vivace que l'on peut voir fleurir un peu partout, des derniers jours de Printemps jusqu'à l'Automne. On la reconnaît à ses feuilles ciselées, découpées, qui lui donnent l'impression d'avoir mille feuilles, et à ses petites fleurs regroupées en inflorescences que l'on qualifie aussi de corymbes, qui forment ainsi un petit parapluie. </p>\n<p>☀️ Au jardin elle est de ces plantes faciles à cultiver. En effet, elle s'accommode de tout type de sol. C'est une plante rustique que l'on peut retrouver sur des terrains très variés. Néanmoins, si l'on chipote, l'achillée préfèrera les sols bien drainés et les endroits ensoleillés. </p>\n<p>🩸 Le saviez-vous ? On la surnomme l'herbe aux charpentiers, ou l'herbe aux soldats car elle possède des propriétés hémostatiques. En d'autres termes, elle permet de stopper les écoulements de sang et favorise ainsi une cicatrisation rapide. Une bénédiction pour les randonneurs qui se blesseraient en chemin. </p>\n<p>🩸🩸 Aussi connue pour ses vertus antispasmodique et anti-inflammatoire, l'achillée millefeuille sera une grande alliée des femmes souffrant de règles douloureuses, et d'autres désagréments liés au cycle menstruel. </p>\n<p>🐝 Enfin, notre chère vivace est aussi mellifère. Elle sera un repère incontournable des pollinisateurs qui viendront s'abreuver de ses douceurs !</p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-1"
         },
         {
             "nom_vernaculaire": "Achillée à feuille d'Ageratum",
@@ -47,7 +48,8 @@
             "nom_latin": "Leycesteria formosa",
             "tag": "arbre",
             "un_jour_une_pousse": "<p>🗻 L'arbre aux faisans, aussi appelé Chèvrefeuille de l'Himalaya, est un arbuste qui se développe tout particulièrement dans un climat tempéré ou subtropical, comme dans sa région d'origine. </p>\n<p>🌤 Il s'adapte à une exposition mi-ombre, mais fleurit davantage s'il est en plein soleil. Rustique, il encaisse des températures négatives jusqu'à -15°C. Il peut mesurer jusqu'à 2m de hauteur et 2m de largeur, parfait pour des haies fleuries !</p>\n<p>🥀 L'arbre aux faisans est doté de magnifiques fleurs blanches et pourpres tombant en grappes de juillet à octobre. Son feuillage vert foncé est semi-persistant. </p>\n<p>🦆 On l’appelle arbre aux faisans, car ses petites grappes de baies pourpres au parfum de caramel attirent les oiseaux et tout particulièrement les faisans. Comestibles, elles peuvent aussi être utilisées en cuisine pour relever les viandes.</p>\n<p>✂ Ce bel arbuste aura besoin d'une taille en hiver, mais son caractère robuste ne nécessite que peu d'entretien pour orner de la plus belle des manières vos haies en été !</p>",
-            "image_name": ["arbre-aux-faisans-1.jpg","arbre-aux-faisans-2.jpg"]
+            "image_name": ["arbre-aux-faisans-1.jpg","arbre-aux-faisans-2.jpg"],
+            "id": "identifiant-2"
         },
         {
             "nom_vernaculaire": "Arbre de jade",
@@ -75,7 +77,8 @@
             "nom_latin": "Aster",
             "tag": "",
             "un_jour_une_pousse": "<p>🗺️ Originaire d'Amérique du Nord et d'Eurasie, l'aster appartient à la famille des Asteraceae. Cette plante vivace illumine les espaces verts en fin de saison.</p>\n<p>⭐ L'aster se distingue par ses fleurs en forme d'étoiles, généralement violettes, roses ou blanches, qui séduisent une multitude de pollinisateurs. Ses inflorescences peuvent s'élever jusqu'à 60 cm, créant de somptueux massifs colorés.</p>\n<p>🏞️ Rustique et peu exigeant, l'aster s'épanouit en plein soleil ou mi-ombre. Il s'accommode de divers types de sols, privilégiant un terrain bien drainé. Résistant au froid, il supporte des températures descendant jusqu'à -15°C.</p>\n<p>🍁 Sa floraison tardive, de la fin de l'été jusqu'aux premiers frimas, en fait un atout précieux pour égayer l'arrière-saison. C'est aussi une excellente plante mellifère, offrant une source de nectar aux insectes quand les autres fleurs se font rares.</p>\n<p>🌱 Au-delà de son aspect décoratif, certaines espèces d'asters possèdent des vertus médicinales. Utilisées en phytothérapie, elles peuvent contribuer à apaiser les troubles respiratoires et digestifs.</p>\n<p>😊 Envie d'accueillir cette étoile automnale dans vos plates-bandes ? </p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-3"
         },
         {
             "nom_vernaculaire": "Basilic",
@@ -89,7 +92,9 @@
             "nom_latin": "Bulbine frutescens Hallmarck",
             "tag": "",
             "un_jour_une_pousse": "<p>🌿 Originaire d'Afrique du Sud, la bulbine appartient à la famille des Asphodelaceae, tout comme ses cousins les aloès, dont elle partage d’ailleurs certaines propriétés. Découvrons ensemble ses nombreux atouts.</p>\n<p>🏵️ La bulbine est une vivace qui illuminera votre jardin grâce à son feuillage érigé persistant et son impressionnante floraison jaune-orangé qui peut durer plusieurs mois. De plus, ses inflorescences qui peuvent atteindre 50 à 60 cm de hauteur sont particulièrement nectarifères et offriront le couvert à de nombreux pollinisateurs !</p>\n<p>🐫 Peu exigeante, elle apprécie une exposition bien ensoleillée et les terrains secs. Elle s'adapte ainsi très bien aux rocailles plutôt arides et supporte très bien les sécheresses ! Elle tolère en outre les hivers \"\"rudes\"\" - ceux d'un autre époque, où les températures avoisinent les -5°C ou -6°C. Petite faiblesse en revanche : notre petite fleur du sud n'apprécie guère les sols trop lourds et gorgés d’eau.</p>\n<p>🚒 Si le suc contenu dans ses feuilles n'est pas propice à la consommation en raison de sa toxicité, il possède en revanche quelques propriétés intéressantes pour la peau, semblables à celles de l’Aloe Vera. Antiseptique, antibactérien, anti-inflammatoire… il permet en effet de soulager les piqûres, les petites plaies, les coups de soleil ou encore les démangeaisons.</p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-4"
+
         },
         {
             "nom_vernaculaire": "Camomille romaine",
@@ -110,7 +115,8 @@
             "nom_latin": "Nepeta cataria",
             "tag": "",
             "un_jour_une_pousse": "<p>🌿 La cataire est une espèce de plantes vivaces aromatiques du genre Nepeta, et de la famille des Lamiacées. Elle a un feuillage vert grisé aromatique et se couvre de fleurs bleu lavande, blanc ou jaune de mai à octobre, qui lui valent souvent la visite de quelques pollinisateurs ! </p>\n<p>☀️ Elle est originaire d'Europe et d'Asie centrale. Elle est heureuse au soleil et dans une terre bien drainée, mais il se trouve qu'elle est aussi très résistante aux conditions climatiques plus rudes : qu'il fasse -15°C ou qu'il n'ait pas plu depuis des lustres, la cataire reste fièrement debout !</p>\n<p>🌸 En tant que plante ornementale, la cataire saura égayer vos parterres, en pot ou en pleine terre.</p>\n<p>💊 La cataire n'est pas uniquement jolie. Elle possède en outre quelques vertus médicinales : elle est antibactérienne et antispasmodique. Elle sera également un allié hors pair pour repousser, naturellement, les redoutables moustiques ! </p>\n<p>🐱 Enfin, si vous ne connaissiez pas la cataire sous ce nom, c'est peut-être parce qu'elle est plus couramment appelée \"\"herbe aux chats\"\". En effet, certaines espèces de cataires ont un effet euphorisant sur les félins!</p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-5"
         },
         {
             "nom_vernaculaire": "Centaurée élégante",
@@ -208,7 +214,8 @@
             "nom_latin": "Cotula lineariloba",
             "tag": "",
             "un_jour_une_pousse": "<p>🌼 Le Cotule à lobes linéaires ou Cotula Lineariloba est une vivace tapissante de la famille des Astéracées, originaire d'Afrique du Sud et très facile à faire pousser.</p>\n<p>🌕 Surnommée \"\"Big Yellow Moon\"\", cette magnifique rampante fait partie d'une grande famille puisque le genre Cotula regroupe entre 60 et 90 espèces, surtout originaires de l'hémisphère sud !</p>\n<p>🌿 Son feuillage bas est formé de petites feuilles découpées en lobes étroits et soyeux qui lui donnent un aspect de coussin végétal très doux au toucher. Ses fleurs jaune citron, présentes pendant tout l'été, se démarquent du reste de la plante en culminant à 15 cm au-dessus de ses feuilles !</p>\n<p>☀️ Un sol bien drainé et une exposition au soleil sont les conditions idéales pour le cotule à lobes linéaires qui n'aime pas une trop forte humidité. Il peut être utilisé comme couvre-sol s'il est planté dans un climat doux, mais préfèrera être installé sur de la rocaille, une bordure ou un talus dans un climat plus froid. Une fois bien enraciné, il résiste sans mal à la sécheresse, mais conserve mieux ses couleurs vives s'il est arrosé de temps en temps.</p>\n<p>❄️ L'hiver, le feuillage persistant du cotule peut en partie mourir dû aux gelées. Pas de panique, il repart tout seul à la saison suivante. Plantez-le en automne ou au printemps, mais attention dans ce second cas, arrosez-le bien le premier été !</p>\n<p>😁 Alors si vous aussi, vous voulez tapisser votre sol, venez découvrir le cotule sur la pépinière !</p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-6"
         },
         {
             "nom_vernaculaire": "Courgette",
@@ -229,7 +236,8 @@
             "nom_latin": "Stachys byzantina",
             "tag": "couvre-sol",
             "un_jour_une_pousse": "<p>🐇 Aujourd'hui l'épiaire laineuse, aussi appelé stachide laineuse, épiaire de Byzance, Oreille de lapin, oreille d'ours, oreille d'agneau et j'en passe. Même si c'est celui qu'on ne retiendra pas le plus facilement, son nom scientifique est Stachys (épi) lanata (laineux) byzantina (pour son origine Byzantine).</p>\n<p>🗺 Il s'agit donc d'une magnifique vivace de la famille des Lamiacées, originaire notamment d'Asie mineure, de Caucase et de Turquie.</p>\n<p>☀ L'épiaire laineuse est très facile à cultiver puisqu'elle est particulièrement adaptée à la sècheresse mais est également très rustique. Planté au printemps ou en automne, de préférence sur un sol sec et bien drainé et à un endroit ensoleillé, elle est idéale en tant que couvre-sol pour garnir un massif ou de la rocaille.</p>\n<p>🪴 Ses fleurs roses apparaissent de juin à septembre sous forme d'épis en haut d'une hampe pouvant atteindre 60 cm. Son feuillage vert de gris est doux et pelucheux, ce qui lui a valu ses nombreux noms d'animaux. Très mellifère, c'est une plante qui participera au développement de la biodiversité à l'endroit où elle sera plantée.</p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-7"
         },
         {
             "nom_vernaculaire": "Escallonia à grande fleur ",
@@ -432,7 +440,9 @@
             "nom_latin": "Mentha x piperita",
             "tag": "aromatique",
             "un_jour_une_pousse": "<p>🍃 Cultivée en Angleterre à partir du XVII siècle, la menthe poivrée est une plante herbacée vivace issue d’une hybridation spontanée entre la menthe aquatique et la mente verte, de la famille des lamiacées. Elle est largement utilisée pour ses feuilles aromatiques en cuisine, en médecine et en cosmétique.</p>\n<p>🍹 Ses feuilles vertes, ovales et dentelées dégagent une forte et agréable odeur de menthol. Elles sublimeront vos citronnades et autres boissons fraîches en été.</p>\n<p>🐝 La menthe poivrée peut atteindre 30 à 90 cm de haut et ses petites fleurs de couleur mauve à rose raviront les insectes pollinisateurs de vos jardins. </p>\n<p>💧 Si vous ne connaissez pas encore la plante, peut-être avez-vous déjà rencontré son huile essentielle ? Très répandue, l’huile essentielle de menthe poivrée a de nombreuses propriétés : elle dégage les voies respiratoires, soulage les troubles digestifs et maux de tête et a des propriétés antivirales et anti inflammatoire. Attention toutefois à son utilisation, elle est interdite aux femmes enceintes et allaitantes, aux enfants de moins de 7 ans et est contre indiquée en bain.</p>\n<p>🌱 La menthe poivrée ne produit pas de graines, elle se multiplie uniquement via la division des touffes ou la division de racines. Comme toutes les menthes, elle peut d’ailleurs facilement se multiplier un peu partout dans vos jardins. </p>\n<p>👉 Si vous ne savez pas comment la multiplier, n’hésitez pas à passer par la pépinière et à nous demander ! </p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-8"
+
         },
         {
             "nom_vernaculaire": "Monarde fistuleuse",
@@ -460,7 +470,9 @@
             "nom_latin": "tagetes patula",
             "tag": "",
             "un_jour_une_pousse": "<p>🏡 L’Œillet d’Inde ou Tagetes Patula est certainement la plante compagne la plus cultivée au jardin familial. Elle est une plante annuelle très florifère, à croissance rapide et facile à cultiver. Elle aime une exposition ensoleillée et tolère la mi-ombre. L'œillet d'Inde repousse très facilement d'une année à l'autre, grâce au grand nombre de graines que forment ses fleurs.</p>\n<p>🔮 La légende raconte que le nom de cette famille de plantes, les Tagetes, viendrait du dieu étrusque Tages, petit-fils de Jupiter, qui enseigna aux humains l’art de la divination. Cette origine étymologique résonne avec les usages shamaniques de certains peuples au Mexique. Car l’œillet d’Inde ne vient pas, comme elle le suggère, d’Inde, mais bien d’Amérique Centrale, puis rapportée en France depuis les Antilles, appelées auparavant les “Indes occidentales”.</p>\n<p>🐛 Outre leurs qualités décoratives (aux couleurs jaune, orange, jusqu'au marron), les œillets d’Inde sont utiles au potager, en association par exemple avec les tomates, les carottes ou encore le poireau. En effet, leur odeur âcre et piquante repousse les insectes volants, les altises et les pucerons, et agit également au niveau des racines, repoussant les nématodes. Elle peut également être utilisée en engrais vert, en préparant une décoction à partir des feuilles pour lutter contre les pucerons et les chenilles.</p>\n<p>🥗 Mais l'œillet d’Inde est aussi comestible ! Il peut être utilisé pour accompagner vos salades, vos potages et vos desserts. Son goût est assez proche du fruit de la passion. Ses propriétés colorantes lui valent le surnom du “safran du pauvre”. Enfin, l'œillet d'Inde est un vrai remède en phytothérapie du fait de ses vertus digestives, anthelminthiques, antioxydantes, ou encore cicatrisantes cutané.</p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-9"
+
         },
         {
             "nom_vernaculaire": "Œillet des Chartreux ",
@@ -495,7 +507,9 @@
             "nom_latin": "Origanum vulgare 'Golden Shine' ",
             "tag": "aromatique",
             "un_jour_une_pousse": "<p>🌿 Connu pour ses qualités gustatives, le genre “Origanum” compte en réalité plus d’une quarantaine d’espèces de vivaces aromatiques aux nombreuses propriétés.</p>\n<p>☀️ Peu exigeant, l’origan doré tolère la sécheresse et résiste aux hivers froids jusqu’à 15°C à condition d’être placé dans un substrat bien drainé et avec une exposition ensoleillée. Il pourra très bien être cultivé en pot.</p>\n<p>🐝 L’origan doré se distingue par son feuillage doré et lumineux qui lui donne son nom. Il fleurit entre juin et octobre et arbore de nombreuses petites fleurs rose pâle, riches en nectar et très attractives pour les insectes butineurs et pollinisateurs. Un véritable allié pour favoriser la diversité !</p>\n<p>🥗 Incontournable de la cuisine méditerranéenne, il peut être consommé frais ou séché dans une salade, pour accompagner des grillades ou sur la pizza. L’origan est également reconnu pour ses vertus expectorantes et antiseptiques très utiles en hiver, mais il présente aussi des bienfaits pour stimuler l'appétit ou encore pour la digestion.</p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-10"
+
         },
         {
             "nom_vernaculaire": "Origan vulgare",
@@ -509,7 +523,9 @@
             "nom_latin": "Sedum spectabile",
             "tag": "",
             "un_jour_une_pousse": "<p>🪴 Le Sédum d'automne, aussi appelé Orpin des jardins ou Sédum Remarquable, est une plante succulente originaire d'Asie. Pouvant mesurer jusqu'à 60 cm, il se pare de petites fleurs roses en formes d'étoiles sur la période d'août jusqu'aux gelées.</p>\n<p>☀️ Le sédum remarquable est une plante très résistante qui demande peu d'entretien. Qu'il soit en pot ou en terre, il s'adapte à tous les sols pourvu qu'il soit bien drainé et en plein soleil. Il peut même être installé sur de la rocaille ! Le sédum résiste aux températures extrêmes, aussi bien chaudes que froides, ce qui le rend intéressant pour la végétalisation urbaine.</p>\n<p>🍂 En automne, une fois la floraison passée, ne coupez surtout pas les tiges ! Les fleurs fanées & brunes du sédum seront toujours aussi décoratives, notamment en période de givre. On pourra couper les tiges à ras au printemps pour favoriser la prochaine repousse.</p>\n<p>🦋 Très Mellifère, c'est un sédum qui attire énormément d'insectes comme les abeilles et les papillons ce qui en fait une très bonne plante compagne au jardin et potager. Mais le sédum d'automne attire aussi les gourmets, car il est comestible ! Ses feuilles grasses et turgescentes, ciselées et incorporées dans une salade, réveilleront des sensations gustatives originales !</p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-11"
+
         },
         {
             "nom_vernaculaire": "Orpin de palmer",
@@ -628,14 +644,18 @@
             "nom_latin": "Salvia officinalis ictaria",
             "tag": "aromatique",
             "un_jour_une_pousse": "<p>🪴 Parmi les plantes célèbres qu'on compte dans beaucoup de jardins, on trouve la Sauge et ses multiples bienfaits ! Elle est ici panachée puisqu'il s'agit de Salvia Officinalis 'Icterina' et ses belles feuilles bicolores. C'est une vivace persistante qui, une fois bien installée sur un terrain drainé et ensoleillé, résistera autant aux fortes chaleurs qu'aux gels.</p>\n<p>🍴 Aromatique et comestible, la sauge sera votre nouvelle alliée en cuisine ! Ses feuilles, qui peuvent être séchées pour bonifier ses arômes, viendront agrémenter vos préparations culinaires. Le feuillage persistant de la sauge vous permet de l'utiliser toute l'année, mais l'arôme des feuilles est à son apogée au printemps, juste avant la floraison. Et même les fleurs peuvent servir à décorer vos plats !</p>\n<p>🩹 Qui a de la Sauge dans son jardin n'a pas besoin de médecin. Le nom Salvia, littéralement \"\"celle qui sauve\"\", vient en référence aux vertus médicinales de cette plante. Et c'est un nom qui est bien mérité : Antiseptique et bactéricide, la sauge est excellente pour traiter les inflammations de la bouche et la gorge ou encore les problèmes liés à la digestion. La sauge possède également de bonnes vertus pour soulager les troubles hormonaux liés à la ménopause ou aux menstruations. Nous vous invitons à vous renseigner plus en détail tant les bienfaits sont nombreux.</p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-12"
+
         },
         {
             "nom_vernaculaire": "Sauge Sclarée",
             "nom_latin": "Salvia sclarea",
             "tag": "aromatique",
             "un_jour_une_pousse": "<p>🌱 La sauge sclarée ou Salvia sclarea est une plante herbacée bisannuelle qui appartient à la famille botanique des lamiaceae, cette famille foisonnante qui compte de nombreuses plantes odorantes, parmi lesquelles la menthe et la lavande. </p>\n<p>🌿 Originaire d’Europe Méridionale et de l’Asie Occidentale, la sauge sclarée se retrouve à l’état sauvage dans bon nombre de pays du bassin méditerranéen ! Elle se cultive en France mais également en Europe de l’Est, en Chine et aux Etats-Unis.</p>\n<p>🌸 Plante particulièrement imposante, la sauge peut atteindre plus de 1,70 m de haut dans certaines conditions de culture et de terroir ! Les tiges sont quadrangulaires, très ligneuses. Les feuilles, ovales, grandes et opposées. Les fleurs, de couleur blanche à violette, sont réparties en verticilles sur la tige principale et les rameaux secondaires. Bref. Vous saurez la reconnaître aisément !</p>\n<p>💊 Si l'on cultive cette plante depuis des siècles, c'est notamment parce que ses fleurs et feuilles possèdent des propriétés médicinales remarquables. En effet, les huiles obtenues à partir de ses feuilles ou inflorescences ont des vertus aussi bien analgésiques, antioxydantes, anti-inflammatoires qu'antimicrobiennes ! Rien que ça !</p>\n<p>🧪 L’huile essentielle de sauge sclarée est également très bien connue des aromathérapeutes qui l'emploient pour lutter contre les troubles de la menstruation, les déséquilibres hormonaux ainsi que pour ses vertus antidépressives.</p>\n<p>👃 Une dernière corde à son arc ? Son parfum ! Vous l'aurez remarqué, la sauge sclarée ne sait pas se faire discrète, ni visuellement, ni au nez, et son parfum enivrant a inspiré de nombreux parfumeurs ! De fait, l'huile essentielle qui découle de ses fleurs est désormais utilisée en parfumerie de luxe ! </p>",
-            "image_name": null
+            "image_name": null,
+            "id": "identifiant-13"
+
         },
         {
             "nom_vernaculaire": "Souci",
