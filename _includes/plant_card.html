@@ -6,14 +6,15 @@
             <p class="card-text"></p>
         </div>
         {% if include.plant.un_jour_une_pousse %} 
+        {% assign uniqId = include.plant.id | append: '-' | append: include.pane %} 
             <div>
                 <!-- Button trigger modal -->
-                <button type="button" class="btn btn-outline-dark btn-sm detail-btn" data-bs-toggle="modal" data-bs-target="#{{include.plant.id}}">
+                <button type="button" class="btn btn-outline-dark btn-sm detail-btn" data-bs-toggle="modal" data-bs-target="#{{uniqId}}">
                     <i class="las la-search"></i>&nbsp;Détails
                 </button>
             
                 <!-- Modal -->
-                <div class="modal fade" id="{{include.plant.id}}" tabindex="-1" aria-hidden="true">
+                <div class="modal fade" id="{{uniqId}}" tabindex="-1" aria-hidden="true">
                     <div class="modal-dialog modal-lg">
                         <div class="modal-content">
                             <div class="modal-header">

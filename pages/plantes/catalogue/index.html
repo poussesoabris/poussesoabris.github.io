@@ -43,7 +43,7 @@ permalink: /plantes/catalogue
             <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
                     <div class="col">
-                        {% include plant_card.html plant=plant %}
+                        {% include plant_card.html pane='' plant=plant %}
                     </div> 
                 {% endfor %}
             </div>
@@ -51,7 +51,7 @@ permalink: /plantes/catalogue
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'grimpante' %} 
                         <div class="col">
-                            {% include plant_card.html plant=plant %}
+                            {% include plant_card.html pane='grimpante' plant=plant %}
                         </div> 
                     {% endif %}
                 {% endfor %}
@@ -60,7 +60,7 @@ permalink: /plantes/catalogue
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'arbre' %} 
                         <div class="col">
-                            {% include plant_card.html plant=plant %}
+                            {% include plant_card.html pane='arbre' plant=plant %}
                         </div> 
                     {% endif %}
                 {% endfor %}
@@ -69,7 +69,7 @@ permalink: /plantes/catalogue
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'couvre-sol' %} 
                         <div class="col">
-                            {% include plant_card.html plant=plant %}
+                            {% include plant_card.html pane='couvre-sol' plant=plant %}
                         </div> 
                     {% endif %}
                 {% endfor %}
@@ -78,7 +78,7 @@ permalink: /plantes/catalogue
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'aromatique' %} 
                         <div class="col">
-                            {% include plant_card.html plant=plant %}
+                            {% include plant_card.html pane='aromatique' plant=plant %}
                         </div> 
                     {% endif %}
                 {% endfor %}
@@ -87,7 +87,7 @@ permalink: /plantes/catalogue
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'utile' %} 
                         <div class="col">
-                            {% include plant_card.html plant=plant %}
+                            {% include plant_card.html pane='utile' plant=plant %}
                         </div> 
                     {% endif %}
                 {% endfor %}
