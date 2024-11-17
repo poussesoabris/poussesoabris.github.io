@@ -24,10 +24,14 @@
                             <div class="modal-body">
                                 <div class="row plant-img-row">
                                     <div class="col-5">
-                                      <img src="/assets/images/pages/plantes/bdd/arbre-aux-faisans-1.jpg" class="d-block w-100" alt="...">
+                                        {% if include.plant.imgName1 %}
+                                            <img src="{{include.plant.imgName1}}" class="d-block w-100" alt="...">
+                                        {% endif %}
                                     </div>
                                     <div class="col-7">
-                                      <img src="/assets/images/pages/plantes/bdd/arbre-aux-faisans-2.jpg" class="d-block w-100" alt="...">
+                                        {% if include.plant.imgName2 %}
+                                            <img src="{{include.plant.imgName2}}" class="d-block w-100" alt="...">
+                                        {% endif %}
                                     </div>
                                 </div>
                                 <div class="row">
