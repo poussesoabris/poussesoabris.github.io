@@ -43,14 +43,14 @@ permalink: /plantes/catalogue
           </ul>
           <div class="tab-content py-3" id="myTabContent">
             {% assign sortedPlants = site.data.plantes.plantes | sort: 'name' %} 
-            <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+            <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="plantes-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
                     <div class="col">
                         {% include plant_card.html pane='' plant=plant %}
                     </div> 
                 {% endfor %}
             </div>
-            <div class="tab-pane fade" id="grimpantes-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+            <div class="tab-pane fade" id="grimpantes-tab-pane" role="tabpanel" aria-labelledby="grimpantes-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'grimpante' %} 
                         <div class="col">
@@ -59,7 +59,7 @@ permalink: /plantes/catalogue
                     {% endif %}
                 {% endfor %}
             </div>
-            <div class="tab-pane fade" id="arbres-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+            <div class="tab-pane fade" id="arbres-tab-pane" role="tabpanel" aria-labelledby="arbres-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'arb' %} 
                         <div class="col">
@@ -68,7 +68,7 @@ permalink: /plantes/catalogue
                     {% endif %}
                 {% endfor %}
             </div>
-            <div class="tab-pane fade" id="couvre-sols-tab-pane" role="tabpanel" aria-labelledby="disabled-tab" tabindex="0">
+            <div class="tab-pane fade" id="couvre-sols-tab-pane" role="tabpanel" aria-labelledby="couvre-sol-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'couvre-sol' %} 
                         <div class="col">
@@ -77,7 +77,7 @@ permalink: /plantes/catalogue
                     {% endif %}
                 {% endfor %}
             </div>
-            <div class="tab-pane fade" id="aromatiques-tab-pane" role="tabpanel" aria-labelledby="a-tab" tabindex="0">
+            <div class="tab-pane fade" id="aromatiques-tab-pane" role="tabpanel" aria-labelledby="aromatique-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'aromatique' %} 
                         <div class="col">
@@ -86,7 +86,7 @@ permalink: /plantes/catalogue
                     {% endif %}
                 {% endfor %}
             </div>
-            <div class="tab-pane fade" id="utiles-tab-pane" role="tabpanel" aria-labelledby="b-tab" tabindex="0">
+            <div class="tab-pane fade" id="utiles-tab-pane" role="tabpanel" aria-labelledby="utiles-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'utile' %} 
                         <div class="col">
@@ -95,7 +95,7 @@ permalink: /plantes/catalogue
                     {% endif %}
                 {% endfor %}
             </div>
-            <div class="tab-pane fade" id="esthetique-tab-pane" role="tabpanel" aria-labelledby="b-tab" tabindex="0">
+            <div class="tab-pane fade" id="esthetique-tab-pane" role="tabpanel" aria-labelledby="esthetiques-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'esthétique' %} 
                         <div class="col">
