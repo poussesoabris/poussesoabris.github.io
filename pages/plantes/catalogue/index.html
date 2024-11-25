@@ -23,20 +23,23 @@ permalink: /plantes/catalogue
               <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Toutes nos plantes</button>
             </li>
             <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#grimpantes-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Grimpantes</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#arbres-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Arbres</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#couvre-sols-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Couvre-sols</button>
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#arbres-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Arbres/Arbustes</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="a-tab" data-bs-toggle="tab" data-bs-target="#aromatiques-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Aromatiques</button>
-              </li>
-              <li class="nav-item" role="presentation">
-                <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#utiles-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Utiles au jardin</button>
-              </li>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#couvre-sols-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Couvre-sols</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#esthetique-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Esthétiques</button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#grimpantes-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Grimpantes</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#utiles-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Utiles</button>
+            </li>
           </ul>
           <div class="tab-content pt-3 pb-5" id="myTabContent">
             {% assign sortedPlants = site.data.plantes.plantes | sort: 'name' %} 
@@ -58,7 +61,7 @@ permalink: /plantes/catalogue
             </div>
             <div class="tab-pane fade" id="arbres-tab-pane" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
-                    {% if plant.tag contains 'arbre' %} 
+                    {% if plant.tag contains 'arb' %} 
                         <div class="col">
                             {% include plant_card.html pane='arbre' plant=plant %}
                         </div> 
@@ -92,13 +95,18 @@ permalink: /plantes/catalogue
                     {% endif %}
                 {% endfor %}
             </div>
-          </div>
-          
-    
-       
+            <div class="tab-pane fade" id="esthetique-tab-pane" role="tabpanel" aria-labelledby="b-tab" tabindex="0">
+                {% for plant in sortedPlants %} 
+                    {% if plant.tag contains 'esthétique' %} 
+                        <div class="col">
+                            {% include plant_card.html pane='esthetique' plant=plant %}
+                        </div> 
+                    {% endif %}
+                {% endfor %}
+            </div>  
+        </div>
     </article>
   
-   
     <p class="">Notre fonctionnement étant associatif, les espèces présentées ici sont indicatives, nous ne pouvons vous assurer quelles seront toutes disponibles pour chaque date de vente (stock, aléas de production...).</p>
    
     <p class="fst-italic pb-3">En achetant des plantes chez Pousses Ô Abris, vous soutenez les activités de la pépinière et nous aidez à avancer dans nos projets de végétalisation et de sensibilisation à l’environnement, merci&nbsp;!
