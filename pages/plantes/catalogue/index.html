@@ -41,7 +41,7 @@ permalink: /plantes/catalogue
                 <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#utiles-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Utiles</button>
             </li>
           </ul>
-          <div class="tab-content pt-3 pb-5" id="myTabContent">
+          <div class="tab-content py-3" id="myTabContent">
             {% assign sortedPlants = site.data.plantes.plantes | sort: 'name' %} 
             <div class="tab-pane fade show active" id="all-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
@@ -106,6 +106,8 @@ permalink: /plantes/catalogue
             </div>  
         </div>
     </article>
+
+    <p>Nos fiches détails sont issus des posts "Un jour une pousses" rédigés par nos bénévoles, un grand merci pour leurs contributions&nbsp;!</p>
   
     <p class="">Notre fonctionnement étant associatif, les espèces présentées ici sont indicatives, nous ne pouvons vous assurer quelles seront toutes disponibles pour chaque date de vente (stock, aléas de production...).</p>
    
