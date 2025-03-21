@@ -55,7 +55,7 @@ permalink: /plantes/catalogue
             </div>
             <div class="tab-pane fade" id="grimpantes-tab-pane" role="tabpanel" aria-labelledby="grimpantes-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
-                    {% if plant.tag contains 'grimpante'%} 
+                    {% if plant.tags contains 'grimpante'%} 
                         <div class="col">
                             {% include plant_card.html pane='grimpante' plant=plant %}
                         </div> 
@@ -64,7 +64,7 @@ permalink: /plantes/catalogue
             </div>
             <div class="tab-pane fade" id="arbres-tab-pane" role="tabpanel" aria-labelledby="arbres-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
-                    {% if plant.tag contains 'arb' %} 
+                    {% if plant.tags contains 'arb' %} 
                         <div class="col">
                             {% include plant_card.html pane='arbre' plant=plant %}
                         </div> 
@@ -73,7 +73,7 @@ permalink: /plantes/catalogue
             </div>
             <div class="tab-pane fade" id="couvre-sols-tab-pane" role="tabpanel" aria-labelledby="couvre-sol-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
-                    {% if plant.tag contains 'couvre-sol' %} 
+                    {% if plant.tags contains 'couvre-sol' %} 
                         <div class="col">
                             {% include plant_card.html pane='couvre-sol' plant=plant %}
                         </div> 
@@ -82,7 +82,7 @@ permalink: /plantes/catalogue
             </div>
             <div class="tab-pane fade" id="comestible-tab-pane" role="tabpanel" aria-labelledby="comestible-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
-                    {% if plant.tag contains 'comestible' %} 
+                    {% if plant.tags contains 'comestible' %} 
                         <div class="col">
                             {% include plant_card.html pane='comestible' plant=plant %}
                         </div> 
@@ -91,7 +91,7 @@ permalink: /plantes/catalogue
             </div>
             <div class="tab-pane fade" id="aromatiques-tab-pane" role="tabpanel" aria-labelledby="aromatique-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
-                    {% if plant.tag contains 'aromatique' %} 
+                    {% if plant.tags contains 'aromatique' %} 
                         <div class="col">
                             {% include plant_card.html pane='aromatique' plant=plant %}
                         </div> 
@@ -100,7 +100,7 @@ permalink: /plantes/catalogue
             </div>
             <div class="tab-pane fade" id="utiles-tab-pane" role="tabpanel" aria-labelledby="utiles-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
-                    {% if plant.tag contains 'utile' %} 
+                    {% if plant.tags contains 'utile' %} 
                         <div class="col">
                             {% include plant_card.html pane='utile' plant=plant %}
                         </div> 
@@ -109,7 +109,7 @@ permalink: /plantes/catalogue
             </div>
             <div class="tab-pane fade" id="fleur-tab-pane" role="tabpanel" aria-labelledby="fleur-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
-                    {% if plant.tag contains 'fleur' %} 
+                    {% if plant.tags contains 'fleur' %} 
                         <div class="col">
                             {% include plant_card.html pane='fleur' plant=plant %}
                         </div> 

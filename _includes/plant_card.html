@@ -5,9 +5,15 @@
             <div>
                 <h3 class="card-title d-inline">{{include.plant.nom_vernaculaire}}</h3> - <em>{{include.plant.nom_latin}}</em> 
             </div>          
-            <p class="ps-3 card-text">
-                <span class="badge rounded-pill text-bg-light">{{include.plant.tag}}</span>
-            </p>
+            <div class="ps-3 card-text">
+                <span class="badge rounded-pill text-bg-light">{{include.plant.tag-1}}</span>
+                <span class="badge rounded-pill text-bg-light">{{include.plant.tag_2}}</span>
+            </div>
+            <div class="ps-3 card-text non-dispo">
+                {% if include.plant.non_disponible contains 'X' %} 
+                <i class="las la-exclamation-triangle pt-2" title="pas disponible pour le moment"></i>
+                {% endif %}
+            </div>
         </div>
         {% if include.plant.un_jour_une_pousse %} 
         {% assign uniqId = include.plant.id | append: '-' | append: include.pane %} 

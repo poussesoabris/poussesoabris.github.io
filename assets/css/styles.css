@@ -318,6 +318,10 @@ footer a{
     text-align: center;
 }
 
+.card .la-exclamation-triangle{
+    color: red;
+    cursor: pointer;
+}
 
 
 @media screen and (max-width: 992px) {
