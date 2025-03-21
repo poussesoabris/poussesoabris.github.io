@@ -23,19 +23,22 @@ permalink: /plantes/catalogue
               <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#all-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Toutes nos plantes</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#arbres-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Arbres/Arbustes</button>
+                <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#arbres-tab-pane" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Arbres & Arbustes</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#grimpantes-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Grimpantes</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#fleur-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Fleurs</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#comestible-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Comestibles</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="a-tab" data-bs-toggle="tab" data-bs-target="#aromatiques-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Aromatiques</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="disabled-tab" data-bs-toggle="tab" data-bs-target="#couvre-sols-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Couvre-sols</button>
-            </li>
-            <li class="nav-item" role="presentation">
-                <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#esthetique-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Esthétiques</button>
-            </li>
-            <li class="nav-item" role="presentation">
-              <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#grimpantes-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Grimpantes</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="b-tab" data-bs-toggle="tab" data-bs-target="#utiles-tab-pane" type="button" role="tab" aria-controls="disabled-tab-pane" aria-selected="false">Utiles</button>
@@ -52,7 +55,7 @@ permalink: /plantes/catalogue
             </div>
             <div class="tab-pane fade" id="grimpantes-tab-pane" role="tabpanel" aria-labelledby="grimpantes-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
-                    {% if plant.tag contains 'grimpante' %} 
+                    {% if plant.tag contains 'grimpante'%} 
                         <div class="col">
                             {% include plant_card.html pane='grimpante' plant=plant %}
                         </div> 
@@ -77,6 +80,15 @@ permalink: /plantes/catalogue
                     {% endif %}
                 {% endfor %}
             </div>
+            <div class="tab-pane fade" id="comestible-tab-pane" role="tabpanel" aria-labelledby="comestible-tab" tabindex="0">
+                {% for plant in sortedPlants %} 
+                    {% if plant.tag contains 'comestible' %} 
+                        <div class="col">
+                            {% include plant_card.html pane='comestible' plant=plant %}
+                        </div> 
+                    {% endif %}
+                {% endfor %}
+            </div>
             <div class="tab-pane fade" id="aromatiques-tab-pane" role="tabpanel" aria-labelledby="aromatique-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
                     {% if plant.tag contains 'aromatique' %} 
@@ -95,11 +107,11 @@ permalink: /plantes/catalogue
                     {% endif %}
                 {% endfor %}
             </div>
-            <div class="tab-pane fade" id="esthetique-tab-pane" role="tabpanel" aria-labelledby="esthetiques-tab" tabindex="0">
+            <div class="tab-pane fade" id="fleur-tab-pane" role="tabpanel" aria-labelledby="fleur-tab" tabindex="0">
                 {% for plant in sortedPlants %} 
-                    {% if plant.tag contains 'esthétique' %} 
+                    {% if plant.tag contains 'fleur' %} 
                         <div class="col">
-                            {% include plant_card.html pane='esthetique' plant=plant %}
+                            {% include plant_card.html pane='fleur' plant=plant %}
                         </div> 
                     {% endif %}
                 {% endfor %}
