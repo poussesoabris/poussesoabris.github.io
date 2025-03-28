@@ -1,0 +1,320 @@
+{
+    "plantes":
+    [
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Acanthe",
+            "nom_latin": "Acanthus",
+            "non_disponible": "",
+            "tags": "utile aux insectes",
+            "tag-1": "utile aux insectes",
+            "tag_2": "",
+            "id": "identifiant-2",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Achillée à feuille de criste",
+            "nom_latin": "Achillea critmifolia",
+            "non_disponible": "",
+            "tags": "couvre-sol",
+            "tag-1": "couvre-sol",
+            "tag_2": "",
+            "id": "identifiant-5",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Armoise arborescente",
+            "nom_latin": "Artemisia arborescens",
+            "non_disponible": "",
+            "tags": "utile au jardin, aromatique",
+            "tag-1": "utile au jardin",
+            "tag_2": "aromatique",
+            "id": "identifiant-9",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Chèvrefeuille",
+            "nom_latin": "Lonicera",
+            "non_disponible": "",
+            "tags": "grimpante, fleur",
+            "tag-1": "grimpante",
+            "tag_2": "fleur",
+            "id": "identifiant-19",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Chicorée sauvage",
+            "nom_latin": "Cichorium intybus",
+            "non_disponible": "",
+            "tags": "comestible, fleur",
+            "tag-1": "comestible",
+            "tag_2": "fleur",
+            "id": "identifiant-21",
+            "un_jour_une_pousse": "<p>🌿 De son nom latin : Cichorium intybus, la chicorée sauvage, aussi appelée chicorée amère, est une vivace herbacée qui égaye nos paysages avec ses jolies fleurs bleu ciel. Ses feuilles profondément découpées et sa tige robuste et ramifiée la rendent facilement identifiable dans nos prairies et bords de chemins.</p>\n<p>🇪🇺 Origine et habitat : Originaire d'Europe, cette plante rustique est largement répandue à travers le monde. Elle prospère particulièrement dans les sols pauvres et bien drainés, supportant même des conditions de sécheresse. La chicorée sauvage préfère les expositions ensoleillées, où elle peut atteindre jusqu'à 1,5m de hauteur.</p>\n<p>🌸 De juillet à octobre, ses fleurs bleu azur s'épanouissent en capitules solitaires ou regroupées en petits bouquets le long des tiges, apportant une touche de couleur aux prairies et aux talus. Ces fleurs attirent de nombreux pollinisateurs, en particulier les abeilles, qui raffolent de son nectar.</p>\n<p>💧 La chicorée sauvage est peu exigeante en termes d'arrosage. Elle se satisfait de l'eau de pluie et peut survivre en période de sécheresse grâce à ses racines qui vont chercher l'eau en profondeur.</p>\n<p>🌾 La chicorée sauvage est bien plus qu'une belle fleur. Ses jeunes feuilles, légèrement amères, peuvent être consommées en salade ou cuites comme des légumes. La racine, quant à elle, est souvent torréfiée et utilisée comme substitut de café, connue sous le nom de \"\"chicorée à café\"\".</p>\n<p>🌱 Saviez-vous que la chicorée sauvage est une plante mythologique ? Dans la mythologie grecque, elle était dédiée à Perséphone, déesse de la végétation. On croyait que la chicorée pouvait attirer la bienveillance des dieux et favoriser la croissance des récoltes.</p>",
+            "imgName1": "chicoree-1.jpg",
+            "imgName2": "chicoree-2.jpg"
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Ciboule de Chine",
+            "nom_latin": "Allium tuberosum",
+            "non_disponible": "",
+            "tags": "comestible, fleur",
+            "tag-1": "comestible",
+            "tag_2": "fleur",
+            "id": "identifiant-22",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Consoude de Russie",
+            "nom_latin": "Symphytum x uplandicum",
+            "non_disponible": "",
+            "tags": "utile au jardin",
+            "tag-1": "utile au jardin",
+            "tag_2": "",
+            "id": "identifiant-28",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+      
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Hémérocalle",
+            "nom_latin": "Hemerocallis",
+            "non_disponible": "",
+            "tags": "comestible, fleur",
+            "tag-1": "comestible",
+            "tag_2": "fleur",
+            "id": "identifiant-47",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+        
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Immortelle d'Italie",
+            "nom_latin": "Helichrysum italicum",
+            "non_disponible": "",
+            "tags": "médicinale, aromatique",
+            "tag-1": "médicinale",
+            "tag_2": "aromatique",
+            "id": "identifiant-49",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+       
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Mélisse",
+            "nom_latin": "Melissa officinalis",
+            "non_disponible": "",
+            "tags": "aromatique, utile aux insectes",
+            "tag-1": "aromatique",
+            "tag_2": "utile aux insectes",
+            "id": "identifiant-57",
+            "un_jour_une_pousse": "<p>🐝 La Mélisse officinale (melissa officinalis) tient son nom du grec Melissophullon, signifiant \"\"herbe à abeilles\"\". Plante mellifère, autrefois placée au pied des ruches pour garantir la pérennité des essaims, elle sait charmer les insectes pollinisateurs !</p>\n<p>🌿 On la trouve en région méditerranéenne où elle préfère éviter les coups de soleil en privilégiant une exposition mi-ombre dans un sol drainé : c'est qu'elle n'aime pas être trop arrosée !  Cette plante herbacée vivace fleurit de juin à août et, quand elle se plaît, n'hésite pas à s'étendre en petits buissons, bien pratiques pour la cueillette !</p>\n<p>🌼 Jadis appelée \"\"thé de France\"\", ses feuilles et ses fleurs sont consommées principalement en tisanes pour leurs vertus médicinales (digestion, nausée, anxiété, ...). Les feuilles fraîches ont une saveur citronnée et peuvent se marier avec du poisson ou être utilisées dans certains desserts. Attention toutefois à ne pas confondre la Mélisse officinale avec la Citronnelle ou la Verveine citronnelle.</p>",
+            "imgName1": "melisse-1.jpg",
+            "imgName2": "melisse-2.jpg"
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Menthe ananas ",
+            "nom_latin": "Mentha rotundifolia 'Ananas'",
+            "non_disponible": "",
+            "tags": "aromatique",
+            "tag-1": "aromatique",
+            "tag_2": "",
+            "id": "identifiant-58",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Menthe bergamote",
+            "nom_latin": "Mentha x piperita citrata 'Bergamote'",
+            "non_disponible": "",
+            "tags": "aromatique",
+            "tag-1": "aromatique",
+            "tag_2": "",
+            "id": "identifiant-59",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+      
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Menthe poivrée ",
+            "nom_latin": "Mentha x piperita",
+            "non_disponible": "",
+            "tags": "aromatique",
+            "tag-1": "aromatique",
+            "tag_2": "",
+            "id": "identifiant-63",
+            "un_jour_une_pousse": "<p>🍃 Cultivée en Angleterre à partir du XVII siècle, la menthe poivrée est une plante herbacée vivace issue d’une hybridation spontanée entre la menthe aquatique et la mente verte, de la famille des lamiacées. Elle est largement utilisée pour ses feuilles aromatiques en cuisine, en médecine et en cosmétique.</p>\n<p>🍹 Ses feuilles vertes, ovales et dentelées dégagent une forte et agréable odeur de menthol. Elles sublimeront vos citronnades et autres boissons fraîches en été.</p>\n<p>🐝 La menthe poivrée peut atteindre 30 à 90 cm de haut et ses petites fleurs de couleur mauve à rose raviront les insectes pollinisateurs de vos jardins. </p>\n<p>💧 Si vous ne connaissez pas encore la plante, peut-être avez-vous déjà rencontré son huile essentielle ? Très répandue, l’huile essentielle de menthe poivrée a de nombreuses propriétés : elle dégage les voies respiratoires, soulage les troubles digestifs et maux de tête et a des propriétés antivirales et anti inflammatoire. Attention toutefois à son utilisation, elle est interdite aux femmes enceintes et allaitantes, aux enfants de moins de 7 ans et est contre indiquée en bain.</p>\n<p>🌱 La menthe poivrée ne produit pas de graines, elle se multiplie uniquement via la division des touffes ou la division de racines. Comme toutes les menthes, elle peut d’ailleurs facilement se multiplier un peu partout dans vos jardins. </p>\n<p>👉 Si vous ne savez pas comment la multiplier, n’hésitez pas à passer par la pépinière et à nous demander ! </p>",
+            "imgName1": "menthe-poivree-1.jpeg",
+            "imgName2": "menthe-poivree-2.jpeg"
+        },
+       
+    
+     
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Oeillet mignardise",
+            "nom_latin": "Dianthus plumosus ",
+            "non_disponible": "",
+            "tags": "fleur",
+            "tag-1": "fleur",
+            "tag_2": "",
+            "id": "identifiant-69",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+        
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Origan doré ",
+            "nom_latin": "Origanum vulgare 'Golden Shine' ",
+            "non_disponible": "",
+            "tags": "aromatique",
+            "tag-1": "aromatique",
+            "tag_2": "",
+            "id": "identifiant-72",
+            "un_jour_une_pousse": "<p>🌿 Connu pour ses qualités gustatives, le genre “Origanum” compte en réalité plus d’une quarantaine d’espèces de vivaces aromatiques aux nombreuses propriétés.</p>\n<p>☀️ Peu exigeant, l’origan doré tolère la sécheresse et résiste aux hivers froids jusqu’à 15°C à condition d’être placé dans un substrat bien drainé et avec une exposition ensoleillée. Il pourra très bien être cultivé en pot.</p>\n<p>🐝 L’origan doré se distingue par son feuillage doré et lumineux qui lui donne son nom. Il fleurit entre juin et octobre et arbore de nombreuses petites fleurs rose pâle, riches en nectar et très attractives pour les insectes butineurs et pollinisateurs. Un véritable allié pour favoriser la diversité !</p>\n<p>🥗 Incontournable de la cuisine méditerranéenne, il peut être consommé frais ou séché dans une salade, pour accompagner des grillades ou sur la pizza. L’origan est également reconnu pour ses vertus expectorantes et antiseptiques très utiles en hiver, mais il présente aussi des bienfaits pour stimuler l'appétit ou encore pour la digestion.</p>",
+            "imgName1": "origan-dore-1.jpg",
+            "imgName2": "origan-dore-2.jpg"
+        },
+     
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Pêche de vigne ",
+            "nom_latin": "Prunus persica",
+            "non_disponible": "",
+            "tags": "comestible",
+            "tag-1": "comestible",
+            "tag_2": "",
+            "id": "identifiant-78",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+       
+       
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Romarin ",
+            "nom_latin": "Rosmarinus officinalis",
+            "non_disponible": "",
+            "tags": "aromatique",
+            "tag-1": "aromatique",
+            "tag_2": "",
+            "id": "identifiant-82",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Roquette sauvage",
+            "nom_latin": "diplotaxis tenuifolia",
+            "non_disponible": "",
+            "tags": "comestible",
+            "tag-1": "comestible",
+            "tag_2": "",
+            "id": "identifiant-83",
+"un_jour_une_pousse": null,
+            "imgName1": "",
+            "imgName2": ""
+        },
+      
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Sauge panachée",
+            "nom_latin": "Salvia officinalis ictaria",
+            "non_disponible": "",
+            "tags": "aromatique",
+            "tag-1": "aromatique",
+            "tag_2": "",
+            "id": "identifiant-91",
+            "un_jour_une_pousse": "<p>🪴 Parmi les plantes célèbres qu'on compte dans beaucoup de jardins, on trouve la Sauge et ses multiples bienfaits ! Elle est ici panachée puisqu'il s'agit de Salvia Officinalis 'Icterina' et ses belles feuilles bicolores. C'est une vivace persistante qui, une fois bien installée sur un terrain drainé et ensoleillé, résistera autant aux fortes chaleurs qu'aux gels.</p>\n<p>🍴 Aromatique et comestible, la sauge sera votre nouvelle alliée en cuisine ! Ses feuilles, qui peuvent être séchées pour bonifier ses arômes, viendront agrémenter vos préparations culinaires. Le feuillage persistant de la sauge vous permet de l'utiliser toute l'année, mais l'arôme des feuilles est à son apogée au printemps, juste avant la floraison. Et même les fleurs peuvent servir à décorer vos plats !</p>\n<p>🩹 Qui a de la Sauge dans son jardin n'a pas besoin de médecin. Le nom Salvia, littéralement \"\"celle qui sauve\"\", vient en référence aux vertus médicinales de cette plante. Et c'est un nom qui est bien mérité : Antiseptique et bactéricide, la sauge est excellente pour traiter les inflammations de la bouche et la gorge ou encore les problèmes liés à la digestion. La sauge possède également de bonnes vertus pour soulager les troubles hormonaux liés à la ménopause ou aux menstruations. Nous vous invitons à vous renseigner plus en détail tant les bienfaits sont nombreux.</p>",
+            "imgName1": "sauge-panachee-1.jpg",
+            "imgName2": "sauge-panachee-2.jpg"
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Sauge Sclarée",
+            "nom_latin": "Salvia sclarea",
+            "non_disponible": "",
+            "tags": "médicinale, utile aux insectes",
+            "tag-1": "médicinale",
+            "tag_2": "utile aux insectes",
+            "id": "identifiant-92",
+            "un_jour_une_pousse": "<p>🌱 La sauge sclarée ou Salvia sclarea est une plante herbacée bisannuelle qui appartient à la famille botanique des lamiaceae, cette famille foisonnante qui compte de nombreuses plantes odorantes, parmi lesquelles la menthe et la lavande. </p>\n<p>🌿 Originaire d’Europe Méridionale et de l’Asie Occidentale, la sauge sclarée se retrouve à l’état sauvage dans bon nombre de pays du bassin méditerranéen ! Elle se cultive en France mais également en Europe de l’Est, en Chine et aux Etats-Unis.</p>\n<p>🌸 Plante particulièrement imposante, la sauge peut atteindre plus de 1,70 m de haut dans certaines conditions de culture et de terroir ! Les tiges sont quadrangulaires, très ligneuses. Les feuilles, ovales, grandes et opposées. Les fleurs, de couleur blanche à violette, sont réparties en verticilles sur la tige principale et les rameaux secondaires. Bref. Vous saurez la reconnaître aisément !</p>\n<p>💊 Si l'on cultive cette plante depuis des siècles, c'est notamment parce que ses fleurs et feuilles possèdent des propriétés médicinales remarquables. En effet, les huiles obtenues à partir de ses feuilles ou inflorescences ont des vertus aussi bien analgésiques, antioxydantes, anti-inflammatoires qu'antimicrobiennes ! Rien que ça !</p>\n<p>🧪 L’huile essentielle de sauge sclarée est également très bien connue des aromathérapeutes qui l'emploient pour lutter contre les troubles de la menstruation, les déséquilibres hormonaux ainsi que pour ses vertus antidépressives.</p>\n<p>👃 Une dernière corde à son arc ? Son parfum ! Vous l'aurez remarqué, la sauge sclarée ne sait pas se faire discrète, ni visuellement, ni au nez, et son parfum enivrant a inspiré de nombreux parfumeurs ! De fait, l'huile essentielle qui découle de ses fleurs est désormais utilisée en parfumerie de luxe ! </p>",
+            "imgName1": "sauge-sclaree-1.jpg",
+            "imgName2": "sauge-sclaree-2.jpg"
+        },
+     
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Tanaisie d'Arménie",
+            "nom_latin": "Tanacetum densum",
+            "non_disponible": "",
+            "tags": "couvre-sol",
+            "tag-1": "couvre-sol",
+            "tag_2": "",
+            "id": "identifiant-96",
+            "un_jour_une_pousse": "<p>🌼 La Tanaisie d'Arménie, ou Tanacetum densum de son nom latin, est une vivace charmante qui apporte une touche de fraîcheur et d'élégance à nos jardins. Ses feuilles finement découpées, forment un joli coussin gris épais, qui fait de la tanaisie d'Arménie un excellent couvre-sol.</p>\n<p>⛰️ Originaire de la région méridionale située au sud de l’Arménie, comme son nom l'indique, cette plante rustique est parfaitement adaptée aux climats tempérés. Elle affectionne les sols bien drainés et une exposition ensoleillée, mais peut tolérer un léger ombrage. Sa résistance à la sécheresse en fait une excellente candidate pour les jardins méditerranéens ou les rocailles.</p>\n<p>🦋 Les fleurs jaunes de la Tanaisie d'Arménie, qui s'épanouissent du printemps à l'été, ne sont pas nombreuses, mais d’une rare délicatesse. En revanche, son feuillage vous aidera au jardin, puisque c’est une plante aux propriétés allélopathiques, dont les racines empêchent les “mauvaises” herbes concurrentes de croître.</p>\n<p>🌍 En intégrant cette belle plante à votre jardin, vous participez à la préservation d'une espèce originaire d'une région riche en biodiversité. C'est une façon simple et agréable de contribuer à la conservation de notre patrimoine végétal mondial.</p>",
+            "imgName1": "tanaisie-ar-1.jpg",
+            "imgName2": "tanaisie-ar-2.jpg"
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Bulbine Hallmark",
+            "nom_latin": "Bulbine frutescens Hallmarck",
+            "non_disponible": "",
+            "tags": "utile aux insectes, fleur",
+            "tag-1": "utile aux insectes",
+            "tag_2": "fleur",
+            "id": "identifiant-13",
+            "un_jour_une_pousse": "<p>🌿 Originaire d'Afrique du Sud, la bulbine appartient à la famille des Asphodelaceae, tout comme ses cousins les aloès, dont elle partage d’ailleurs certaines propriétés. Découvrons ensemble ses nombreux atouts.</p>\n<p>🏵️ La bulbine est une vivace qui illuminera votre jardin grâce à son feuillage érigé persistant et son impressionnante floraison jaune-orangé qui peut durer plusieurs mois. De plus, ses inflorescences qui peuvent atteindre 50 à 60 cm de hauteur sont particulièrement nectarifères et offriront le couvert à de nombreux pollinisateurs !</p>\n<p>🐫 Peu exigeante, elle apprécie une exposition bien ensoleillée et les terrains secs. Elle s'adapte ainsi très bien aux rocailles plutôt arides et supporte très bien les sécheresses ! Elle tolère en outre les hivers \"\"rudes\"\" - ceux d'un autre époque, où les températures avoisinent les -5°C ou -6°C. Petite faiblesse en revanche : notre petite fleur du sud n'apprécie guère les sols trop lourds et gorgés d’eau.</p>\n<p>🚒 Si le suc contenu dans ses feuilles n'est pas propice à la consommation en raison de sa toxicité, il possède en revanche quelques propriétés intéressantes pour la peau, semblables à celles de l’Aloe Vera. Antiseptique, antibactérien, anti-inflammatoire… il permet en effet de soulager les piqûres, les petites plaies, les coups de soleil ou encore les démangeaisons.</p>",
+            "imgName1": "bulbine-jaune-1.jpg",
+            "imgName2": "bulbine-jaune-2.jpg"
+        },
+        {
+            "annuelle_ou_vivace": "Vivace",
+            "nom_vernaculaire": "Epiaire laineuse",
+            "nom_latin": "Stachys byzantina",
+            "non_disponible": "",
+            "tags": "couvre-sol, utile aux insectes",
+            "tag-1": "couvre-sol",
+            "tag_2": "utile aux insectes",
+            "id": "identifiant-34",
+            "un_jour_une_pousse": "<p>🐇 Aujourd'hui l'épiaire laineuse, aussi appelé stachide laineuse, épiaire de Byzance, Oreille de lapin, oreille d'ours, oreille d'agneau et j'en passe. Même si c'est celui qu'on ne retiendra pas le plus facilement, son nom scientifique est Stachys (épi) lanata (laineux) byzantina (pour son origine Byzantine).</p>\n<p>🗺 Il s'agit donc d'une magnifique vivace de la famille des Lamiacées, originaire notamment d'Asie mineure, de Caucase et de Turquie.</p>\n<p>☀ L'épiaire laineuse est très facile à cultiver puisqu'elle est particulièrement adaptée à la sècheresse mais est également très rustique. Planté au printemps ou en automne, de préférence sur un sol sec et bien drainé et à un endroit ensoleillé, elle est idéale en tant que couvre-sol pour garnir un massif ou de la rocaille.</p>\n<p>🪴 Ses fleurs roses apparaissent de juin à septembre sous forme d'épis en haut d'une hampe pouvant atteindre 60 cm. Son feuillage vert de gris est doux et pelucheux, ce qui lui a valu ses nombreux noms d'animaux. Très mellifère, c'est une plante qui participera au développement de la biodiversité à l'endroit où elle sera plantée.</p>",
+            "imgName1": "epiaire-laineuse-1.jpg",
+            "imgName2": "epiaire-laineuse-2.jpg"
+        }
+
+       
+    ]
+}
