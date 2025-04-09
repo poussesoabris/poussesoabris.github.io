@@ -9,9 +9,9 @@
                 <span class="badge rounded-pill text-bg-light">{{include.plant.tag-1}}</span>
                 <span class="badge rounded-pill text-bg-light">{{include.plant.tag_2}}</span>
             </div>
-            <div class="ps-3 card-text non-dispo">
+            <div class="ps-3 card-text non-dispo" title="non disponible pour le moment">
                 {% if include.plant.non_disponible contains 'X' %} 
-                <i class="las la-exclamation-triangle pt-2" title="pas disponible pour le moment"></i>
+                <i class="las la-exclamation-triangle pt-2 pe-1"></i>indisponible
                 {% endif %}
             </div>
         </div>

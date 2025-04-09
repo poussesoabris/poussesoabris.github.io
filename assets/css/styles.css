@@ -323,6 +323,11 @@ footer a{
     cursor: pointer;
 }
 
+.non-dispo{
+    color: red;
+    font-size: 11px;
+}
+
 
 @media screen and (max-width: 992px) {
     .sticky-wrapper{
