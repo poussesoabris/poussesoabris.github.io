@@ -119,6 +119,17 @@ footer a{
     color: white;
     background-color: #010101;
 }
+.summer-infos{
+    position: relative;
+    z-index: 2;
+    background-color: #703a58b3;
+    color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 8px 5%;
+    font-size: 16px;
+    letter-spacing: 0.7px;
+}
 .banner-img{
     position: absolute;
     top: 0;
