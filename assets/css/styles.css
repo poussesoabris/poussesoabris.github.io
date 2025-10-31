@@ -272,6 +272,16 @@ footer a{
     margin: 30px 0 0 0;
     position: relative;
 }
+.partial-spacer-left{
+    width: 67%;
+    height: 12px;
+}
+.partial-spacer-right{
+    position: absolute;
+    right: 0;
+    width: 50%;
+    height: 12px;
+}
 
 .news .btn{
     width: 270px;
