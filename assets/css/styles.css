@@ -211,7 +211,12 @@ footer a{
     font-size: 1.5em;
     text-align: center;
 }
-.ouverture span{
+.ouverture2{
+    color: #703A58;
+    font-size: 1.5em;
+    text-align: center;
+}
+.ouverture span, .ouverture2 span{
     display: block;
     font-size: 0.9em;
     font-style: italic;
@@ -291,6 +296,10 @@ footer a{
     line-height: 1.8em;
 }
 
+#activites ul{
+    list-style-type: circle;
+}
+
 .encart{
     /* border-left: 2px dotted #703A58; */
     position: relative;
@@ -321,9 +330,17 @@ footer a{
     transform: rotate(-1.5deg);
     max-width: 200px;
 }
-.chiffres-annee div p:nth-child(2){
+/* .chiffres-annee div:nth-child(1) p:nth-child(2), .chiffres-annee div:nth-child(1) p:nth-child(4){
     position: relative;
     top: 70px;
+}
+.chiffres-annee div:nth-child(2) p:nth-child(1), .chiffres-annee div:nth-child(2) p:nth-child(3), .chiffres-annee div:nth-child(2) p:nth-child(5){
+    position: relative;
+    top: 70px;
+} */
+.chiffres-annee div p:nth-child(2), .chiffres-annee div p:nth-child(4), .chiffres-annee div p:nth-child(6){
+    position: relative;
+    top: 90px;
 }
 
 .flower-wrapper{
