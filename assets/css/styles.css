@@ -36,6 +36,9 @@ h2, h3, .page h1{
 .text-alert{
     color: rgb(102, 77, 3);
 }
+.text-strong{
+    color: #703A58;
+}
 h2{
     font-size: 1.9em;
     padding-bottom: 15px;
