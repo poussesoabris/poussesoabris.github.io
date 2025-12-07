@@ -23,6 +23,10 @@ section{
     margin: 0;
 }
 
+h1{
+    text-align: center;
+}
+
 h2, h3, .page h1{
     font-family: 'Roboto Slab', serif;
     color: #703A58;
@@ -644,4 +648,56 @@ footer a{
 .video-2024{
     width: 100%;
     max-width: 450px;
+}
+
+.card{
+    position: relative;
+}
+.card:hover .download-pdf{
+    display: block;
+}
+.download-pdf{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #703a58db;
+    color: white;
+    width: 100%;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    display: none;
+    font-size: 20px;
+}
+.card-text{
+    padding: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: #703A58;
+    font-size: 16px;
+}
+.card-img-top{
+    padding-top: 5px;
+    height: 200px;
+    object-fit: cover;
+}
+
+#activites{
+    scroll-margin-top: 80px;
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+.navbar-nav .nav-link.show{
+    color: white !important;
+}
+.dropdown-menu[data-bs-popper]{
+    top: calc(100%);
+}
+.dropdown-menu{
+    top: calc(100% + 2px);
 }
