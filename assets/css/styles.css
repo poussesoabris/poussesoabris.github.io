@@ -43,6 +43,12 @@ h2, h3, .page h1{
 .text-strong{
     color: #703A58;
 }
+.text-justify{
+    text-align: justify;
+}
+.link{
+    color: #703A58;
+}
 h2{
     font-size: 1.9em;
     padding-bottom: 15px;
@@ -117,7 +123,7 @@ footer a{
 }
 .first-section{
     position: relative;
-    height: calc(100vh - 60px);
+    height: calc(100vh - 57px);
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -125,6 +131,7 @@ footer a{
     align-items: center;
     color: white;
     background-color: #010101;
+    border-bottom: 3px solid #f7c74b;
 }
 .summer-infos{
     position: relative;
@@ -139,26 +146,27 @@ footer a{
 }
 .banner-img{
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     z-index: 1;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
-    filter: opacity(0.6);
+    object-position: bottom;
+    filter: opacity(0.5);
 }
 .main-title{
     font-family: 'Roboto Slab', serif;
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-style: italic;
     text-align: center;
     position: relative;
     top: -25px;
     z-index: 2;
+    margin: auto;
 }
 .first-section-logo>img{
-    max-width: 300px;
+    max-width: 360px;
     position: relative;
     z-index: 2;
 }
@@ -572,6 +580,15 @@ footer a{
         padding-right: 5px;
         display: inline !important;
     }
+
+    .img-wrapper.img-last{
+        width: 100%;
+    }
+    .img-wrapper.img-last>img{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
 }
 
 
@@ -694,4 +711,25 @@ footer a{
 }
 .navbar-nav .nav-link.show{
     color: white !important;
+}
+
+#carousel2022{
+    max-width: 700px;
+    max-height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.text-flower{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+.projet-asso{
+    font-size: 17px;
+}
+
+.dropdown-item:active{
+    background-color: #eee !important;
 }
