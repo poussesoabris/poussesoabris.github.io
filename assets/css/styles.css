@@ -352,8 +352,10 @@ footer a{
     letter-spacing: 3px;
 }
 .chiffres-annee p{
-    transform: rotate(-1.5deg);
     max-width: 200px;
+}
+.chiffres-annee p>span{
+    transform: rotate(-2.5deg);
 }
 /* .chiffres-annee div:nth-child(1) p:nth-child(2), .chiffres-annee div:nth-child(1) p:nth-child(4){
     position: relative;
@@ -657,6 +659,12 @@ footer a{
 @media (max-width: 767px) {
     .detail-btn{
         margin-top: 6px;
+    }
+    .grandePousseImg{
+        height: 200px;
+    }
+    .chiffres-annee div p:nth-child(2), .chiffres-annee div p:nth-child(4), .chiffres-annee div p:nth-child(6) {
+        top: 0;
     }
 }
 
