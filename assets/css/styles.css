@@ -741,3 +741,11 @@ footer a{
 .dropdown-item:active{
     background-color: #eee !important;
 }
+
+.spacer-projet{
+    width: 80%;
+    min-width: 300px;
+    color: #548553;
+    border: 2px solid #548553;
+     margin: 30px auto 40px;
+}
