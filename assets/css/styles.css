@@ -338,10 +338,21 @@ footer a{
     color: #703A58;
 }
 
-.chiffres-annee{
+.chiffres-annee, .chiffres-annee-2{
     background-color: #703A58;
     color: white;
     font-weight: bold;
+}
+.chiffres-annee-2 .row{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+}
+.chiffres-annee-2 span{
+    font-size: 3.5em;
+    display: block;
+    font-family: 'Caveat', handwriting, sans-serif;    
+    letter-spacing: 3px;
 }
 .chiffres-annee span{
     font-size: 3.5em;
