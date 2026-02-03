@@ -1,5 +1,12 @@
 <article class="page">
-    <h1 class="fs-5 ps-2 pb-4">{{include.plant.nom_vernaculaire}}</h1>
+    <h1 class="fs-3 ps-2 pb-4">
+        {{include.plant.nom_vernaculaire}} <em class="print-subtitle">/ {{include.plant.nom_latin}}</em> 
+<br>
+        <small class="mt-2 fs-5">
+            <span class="badge rounded-pill text-bg-light">{{include.plant.tag-1}}</span>
+                <span class="badge rounded-pill text-bg-light">{{include.plant.tag_2}}</span>
+        </small>
+    </h1>
                                
     <div class="row plant-img-row gx-2">
         <div class="col-sm-5">
