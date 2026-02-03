@@ -1,0 +1,28 @@
+@media print {
+    /* Réinitialiser les marges pour le format A4 */
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Chaque article occupera une page A4 */
+    article.page {
+        page-break-after: always; /* Commence une nouvelle page après chaque article */
+        padding: 20mm; /* Ajouter du rembourrage pour la mise en page */
+        width: 210mm; /* Largeur A4 */
+        height: 297mm; /* Hauteur A4 */
+        box-sizing: border-box; /* Inclure le rembourrage dans la largeur et la hauteur */
+    }
+
+    /* Styles pour les images pour qu'elles s'adaptent à la page */
+    .plant-img-row img {
+        max-width: 100%; /* Limiter la largeur d'image */
+        height: auto; /* Conserver les proportions */
+    }
+
+    /* Masquer les éléments non essentiels lors de l'impression */
+    * {
+        -webkit-print-color-adjust: exact; /* Conserver la couleur des éléments */
+        color-adjust: exact; /* Conserver la couleur des éléments */
+    }
+}

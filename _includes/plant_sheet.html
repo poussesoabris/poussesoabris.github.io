@@ -1,0 +1,19 @@
+<article class="page">
+    <h1 class="fs-5 ps-2 pb-4">{{include.plant.nom_vernaculaire}}</h1>
+                               
+    <div class="row plant-img-row gx-2">
+        <div class="col-sm-5">
+            {% if include.plant.imgName1 %}
+                <img src="/assets/images/pages/plantes/bdd/{{include.plant.imgName1}}" class="" alt="{{include.plant.imgName1}}" loading="lazy">
+            {% endif %}
+        </div>
+        <div class="col-sm-7">
+            {% if include.plant.imgName2 %}
+                <img src="/assets/images/pages/plantes/bdd/{{include.plant.imgName2}}" class="" alt="{{include.plant.imgName2}}" loading="lazy">
+            {% endif %}
+        </div>
+    </div>
+    <div class="row">
+        {{ include.plant.un_jour_une_pousse | newline_to_br }}
+    </div>
+</article>
