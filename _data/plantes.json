@@ -107,19 +107,6 @@
   },
   {
     "annuelle_ou_vivace": "Vivace",
-    "nom_vernaculaire": "Armoise arborescente",
-    "nom_latin": "Artemisia arborescens",
-    "non_disponible": "",
-    "tags": "utile au jardin, aromatique",
-    "tag-1": "utile au jardin",
-    "tag_2": "aromatique",
-    "id": "identifiant-9",
-    "un_jour_une_pousse": null,
-    "imgName1": "",
-    "imgName2": ""
-  },
-  {
-    "annuelle_ou_vivace": "Vivace",
     "nom_vernaculaire": "Artichaut",
     "nom_latin": "Cynara cardunculus var. scolymus",
     "non_disponible": "X",
@@ -169,6 +156,19 @@
     "un_jour_une_pousse": "<p>🌿 Originaire d'Afrique du Sud, la bulbine appartient à la famille des Asphodelaceae, tout comme ses cousins les aloès, dont elle partage d’ailleurs certaines propriétés. Découvrons ensemble ses nombreux atouts.</p>\n<p>🏵️ La bulbine est une vivace qui illuminera votre jardin grâce à son feuillage érigé persistant et son impressionnante floraison jaune-orangé qui peut durer plusieurs mois. De plus, ses inflorescences qui peuvent atteindre 50 à 60 cm de hauteur sont particulièrement nectarifères et offriront le couvert à de nombreux pollinisateurs !</p>\n<p>🐫 Peu exigeante, elle apprécie une exposition bien ensoleillée et les terrains secs. Elle s'adapte ainsi très bien aux rocailles plutôt arides et supporte très bien les sécheresses ! Elle tolère en outre les hivers \"\"rudes\"\" - ceux d'un autre époque, où les températures avoisinent les -5°C ou -6°C. Petite faiblesse en revanche : notre petite fleur du sud n'apprécie guère les sols trop lourds et gorgés d’eau.</p>\n<p>🚒 Si le suc contenu dans ses feuilles n'est pas propice à la consommation en raison de sa toxicité, il possède en revanche quelques propriétés intéressantes pour la peau, semblables à celles de l’Aloe Vera. Antiseptique, antibactérien, anti-inflammatoire… il permet en effet de soulager les piqûres, les petites plaies, les coups de soleil ou encore les démangeaisons.</p>",
     "imgName1": "bulbine-jaune-1.jpg",
     "imgName2": "bulbine-jaune-2.jpg"
+  },
+  {
+    "annuelle_ou_vivace": "Vivace",
+    "nom_vernaculaire": "Armoise arborescente",
+    "nom_latin": "Artemisia arborescens",
+    "non_disponible": "",
+    "tags": "utile au jardin, aromatique",
+    "tag-1": "utile au jardin",
+    "tag_2": "aromatique",
+    "id": "identifiant-9",
+    "un_jour_une_pousse": null,
+    "imgName1": "",
+    "imgName2": ""
   },
   {
     "annuelle_ou_vivace": "Vivace",
@@ -283,9 +283,9 @@
     "tag-1": "comestible",
     "tag_2": "fleur",
     "id": "identifiant-22",
-    "un_jour_une_pousse": null,
-    "imgName1": "",
-    "imgName2": ""
+    "un_jour_une_pousse": "<p>🌸 La ciboule de Chine, ou Allium tuberosum de son nom latin, est une plante vivace herbacée de la famille des Amaryllidacées. Reconnaissable à ses longues feuilles presque plates et à ses jolies fleurs blanches en forme d’étoile, elle possède une saveur similaire à celle de l’ail.</p>\n<p>☀ Originaire d’Asie, la Ciboule de Chine est résistante et peu capricieuse, et s’épanouit dans un environnement ensoleillé et dans des sols frais et bien drainés. Semée au printemps, elle repousse fidèlement chaque année, prête à égayer vos jardins comme vos plats.</p>\n<p>🥟 Plante aromatique par excellence, on la retrouve dans de nombreux plats traditionnels asiatiques, tels que dans les jiaozi (raviolis chinois), dans les phô (soupes vietnamiennes) ou encore dans les buchu-kimichi, une variante du kimchi (plat fermenté coréen).</p>\n<p>🌿 Délicieuse dans nos assiettes, la Ciboule de Chine est aussi consommée sous forme d’infusions et de décoctions, en raison des propriétés antiseptiques et antibactériennes que lui attribuent certaines médecines traditionnelles asiatiques.</p>",
+    "imgName1": "ciboule-1.jpg",
+    "imgName2": "ciboule-2.jpg"
   },
   {
     "annuelle_ou_vivace": "Vivace",
@@ -309,9 +309,9 @@
     "tag-1": "arbuste",
     "tag_2": "fleur",
     "id": "identifiant-24",
-    "un_jour_une_pousse": null,
-    "imgName1": "",
-    "imgName2": ""
+    "un_jour_une_pousse": "<p>🌳 La ciste à feuilles de sauge, de son nom latin Cistus salviifolius,  est un arbrisseau buissonnant de la famille des cistacées que l’on retrouve en Asie, en Afrique mais aussi en Europe de la région méditerranéenne jusqu’en Vendée, principalement dans les zones boisées sèches, dunes, littoraux, garrigues et maquis.</p>\n<p>☀️ Cette plante vivace commune aux fleurs blanches et feuilles ovales gaufrées fleurie en masse au début du printemps. Cet arbuste pouvant faire de 20 à 80 cm de hauteur aime les sols bien drainés et résiste très bien à la sécheresse et aux gels légers.</p>\n<p>🌱 Favorisez la plantation au printemps en régions froides et en automne pour les régions chaudes en arrosant régulièrement les premiers mois.</p>\n<p>🐝 La ciste est un arbrisseau ornemental utilisé pour la création de haies et la stabilisation des sols, mais aussi pour favoriser la présence de pollinisateurs améliorant la biodiversité locale.</p>\n<p>🔥 La ciste à feuilles de sauge possède aussi la qualité de se développer rapidement sur des zones précédemment incendiées et favorise donc la reforestation ainsi que la restructuration des sols.</p>",
+    "imgName1": "ciste-1.jpg",
+    "imgName2": "ciste-2.jpg"
   },
   {
     "annuelle_ou_vivace": "Vivace",
@@ -530,9 +530,9 @@
     "tag-1": "arbuste",
     "tag_2": "fleur",
     "id": "identifiant-41",
-    "un_jour_une_pousse": null,
-    "imgName1": "",
-    "imgName2": ""
+    "un_jour_une_pousse": "<p>🌸 Le gattilier, ou Vitex agnus-castus, décore depuis toujours le paysage méditerranéen. Son feuillage aromatique et sa floraison violette sauront égayer votre jardin !</p>\n<p>🌳 Le gattilier atteint jusqu'à trois mètres de hauteur. Il peut donc servir de haie mais s'adapte également à une vie en pot. Mellifère, ses fleurs attireront abeilles et papillons en juillet-août et contribueront à la biodiversité. 🐝🦋</p>\n<p>☀️ Cet arbuste n'est pas très capricieux mais préfère des sols biens drainés et une bonne exposition au soleil. Ainsi il est préférable de le planter au printemps dans les régions froides pour qu'il puisse s'installer sans peine. Dans d'autres climats, notamment à Toulouse, la plantation en automne est possible.</p>\n<p>🚑 Depuis l'Antiquité, le gattilier est connu pour son usage médicinal. En effet, ses baies soulagent les troubles menstruels, bien que des contradictions existent. Comme pour toutes les plantes médicinales, consultez un spécialiste ou votre médecin avant de l'utiliser !</p>",
+    "imgName1": "gattilier-1.jpg",
+    "imgName2": "gattilier-2.jpg"
   },
   {
     "annuelle_ou_vivace": "Vivace",
@@ -621,7 +621,7 @@
     "tag-1": "médicinale",
     "tag_2": "aromatique",
     "id": "identifiant-48",
-    "un_jour_une_pousse": "<p>🏖 L’Hysope ou Hyssopus Officinalis est un petit arbrisseau vivace pouvant atteindre entre 40 et 70 cm de hauteur. Cette plante est originaire des régions méditerranéennes et affectionne les environnements de type garrigue. Ses fleurs sont communément bleues-violettes, mais on trouve également des hysopes à fleurs blanches ou roses.</p>\n<p>🩹 L’hysope est une plante dont l’utilisation thérapeutique remonte à plusieurs milliers d’années. Durant l’Antiquité, elle était considérée par les Hébreux comme une plante sacrée. Elle était également utilisée par les médecins grecs dont Hippocrate, Galien et Dioscoride pour ses vertus thérapeutiques, en particulier pour traiter des maladies inflammatoires des poumons et des bronches. Et alors, qu’en est-il ?</p>\n<p>🫖 En effet, l’hysope est reconnue pour ses effets contre la toux quinteuse et les rhinites. Elle est aussi utilisée pour traiter l’asthme. En règle générale, l’hysope permet de soigner les affections pulmonaires et les états grippaux. Elle a aussi des effets contre les sinusites et les otites ! Antispasmodique, elle améliore la digestion et aide à évacuer les gaz intestinaux. Une infusion peut être préparée avec les sommités des fleurs fraîches ou avec des fleurs séchées !</p>\n<p>👨‍🍳 Au-delà de la tisane, l’hysope est une plante aromatique qui saura sublimer vos préparations culinaires. Ses fleurs peuvent être cueillies pour être ajoutées à des salades, des sauces ou encore des soupes. Les feuilles et les fleurs d’hysope peuvent également être séchées avant d’être employées comme aromates pour parfumer des huiles et des vinaigrettes... miam !</p>\n<p>🐝 Et parce que l’hysope a tout pour plaire, c’est également une fleur ornementale et mellifère : elle saura donc autant charmer vos yeux que nourrir nos amis les pollinisateurs. Vous l’aurez compris, c’est une indispensable sur votre balcon ou dans votre potager. Facile d’entretien, elle appréciera la compagnie des autres aromatiques comme le thym, le romarin, la lavande ou l’origan, sera utile au chou pour repousser la mouche blanche et sa qualité mellifère sera appréciée par des arbres fruitiers !</p>",
+    "un_jour_une_pousse": "<p>🏖 L’Hysope ou Hyssopus Officinalis est un petit arbrisseau vivace pouvant atteindre entre 40 et 70 cm de hauteur. Cette plante est originaire des régions méditerranéennes et affectionne les environnements de type garrigue. Ses fleurs sont communément bleues-violettes, mais on trouve également des hysopes à fleurs blanches ou roses.</p>\n<p>🩹 L’hysope est une plante dont l’utilisation thérapeutique remonte à plusieurs milliers d’années. Durant l’Antiquité, elle était considérée par les Hébreux comme une plante sacrée. Elle était également utilisée par les médecins grecs dont Hippocrate, Galien et Dioscoride, en particulier pour traiter des maladies inflammatoires des poumons et des bronches. Et alors, qu’en est-il ?</p>\n<p>🫖 En effet, l’hysope est reconnue pour ses effets contre la toux quinteuse et les rhinites. Elle est aussi utilisée pour traiter l’asthme. En règle générale, l’hysope permet de soigner les affections pulmonaires et les états grippaux. Antispasmodique, elle améliore la digestion et aide à évacuer les gaz intestinaux. Une infusion peut être préparée avec les sommités des fleurs fraîches ou avec des fleurs séchées !</p>\n<p>👨‍🍳 Au-delà de la tisane, l’hysope est une plante aromatique qui saura sublimer vos préparations culinaires. Ses fleurs peuvent être cueillies pour être ajoutées à des salades, des sauces ou encore des soupes. Les feuilles et les fleurs d’hysope peuvent également être séchées avant d’être employées comme aromates pour parfumer des huiles et des vinaigrettes... miam !</p>\n<p>🐝 Et parce que l’hysope a tout pour plaire, c’est également une fleur ornementale et mellifère : elle saura donc autant charmer vos yeux que nourrir nos amis les pollinisateurs. Vous l’aurez compris, c’est une indispensable sur votre balcon ou dans votre potager. Facile d’entretien, elle appréciera la compagnie des autres aromatiques comme le thym, le romarin, la lavande ou l’origan, sera utile au chou pour repousser la mouche blanche et sa qualité mellifère sera appréciée par des arbres fruitiers !</p>",
     "imgName1": "hysope-1.jpg",
     "imgName2": "hysope-2.jpg"
   },
@@ -790,9 +790,9 @@
     "tag-1": "aromatique",
     "tag_2": "",
     "id": "identifiant-61",
-    "un_jour_une_pousse": null,
-    "imgName1": "",
-    "imgName2": ""
+    "un_jour_une_pousse": "<p>🌿 La menthe chocolat, de son nom latin « Mentha piperita ‘Chocolat’ », fait partie des menthes poivrées. Son feuillage vert foncé semi-persistant prend parfois de belles teintes rougeâtres et, quand vient l’été, elle se pare de jolies petites fleurs violettes. Quand elles sont en pleine forme, les tiges de cette herbacée peuvent atteindre jusqu'à 50 cm de haut.</p>\n<p>⛅️ Si cette vivace odorante apprécie le soleil, sa préférence va à la mi-ombre. Rustique, elle peut résister à des températures jusqu’à -15° C et apprécie tous les types de sols, à condition qu’ils soient bien frais et humides. \nLa menthe chocolat aime prendre ses aises quand plantée en pleine terre. Pour limiter son étalement, on peut la tailler de temps en temps ou la cultiver en pot 🪴</p>\n<p>🐝 Appréciée aussi bien des humains que des insectes pollinisateurs, cette plante doit son nom à l’odeur de chocolat mentholé qu’elle dégage. Particulièrement riche en menthol, ses feuilles entrent dans la composition des after-eight, sirops, bonbons et alcools de menthe 🍫</p>\n<p>Récoltées entre mars et octobre, elles peuvent agrémenter les desserts les plus gourmands comme les boissons et les cocktails. Utilisée en infusion, elle a également des propriétés toniques et digestives 🍵</p>",
+    "imgName1": "menthe-choco-1.jpg",
+    "imgName2": "menthe-choco-2.jpg"
   },
   {
     "annuelle_ou_vivace": "Vivace",
@@ -1115,9 +1115,9 @@
     "tag-1": "grimpante",
     "tag_2": "fleur",
     "id": "identifiant-86",
-    "un_jour_une_pousse": null,
-    "imgName1": "",
-    "imgName2": ""
+    "un_jour_une_pousse": "<p>🌹 'American Pillar' est un rosier-liane très répandu depuis sa création en 1902 aux États-Unis par le Dr Walter Van Fleet à partir d'un croisement entre Rosa wichuraiana et Rosa setigera.</p>\n<p>🌿 Poussant vigoureusement sur de fortes tiges très épineuses à larges feuilles vertes brillantes, ce rosier triploïde non-remontant et non parfumé fleurit en fin de printemps ou début d'été durant 15 jours à un mois et demi selon les conditions climatiques et l'exposition. Cette floraison tardive fait qu'on peut l'associer à un autre grimpant précoce pour avoir une plus longue floraison globale.</p>\n<p>🌱 Cette plante peut grimper de 7 à 8 mètres de hauteur et supporte le froid, mais pousse mieux au soleil qu'à mi-ombre.</p>\n<p>🏙 Ce type de rosier est souvent utilisé pour couvrir un vieux bâtiment inesthétique ou garnir un vieil arbre, car il ne demande quasiment pas d'entretien. Il se bouture très facilement.</p>\n<p>🏛️ On peut l'admirer à la roseraie de Bagatelle ou à la roseraie du jardin botanique royal de Madrid. C'est une variété obligatoirement présente dans les principales roseraies du monde.</p>",
+    "imgName1": "american-pillar-1.jpg",
+    "imgName2": "american-pillar-2.jpg"
   },
   {
     "annuelle_ou_vivace": "Vivace",
@@ -1180,9 +1180,9 @@
     "tag-1": "aromatique",
     "tag_2": "fleur",
     "id": "identifiant-91",
-    "un_jour_une_pousse": null,
-    "imgName1": "",
-    "imgName2": ""
+    "un_jour_une_pousse": "<p>🌿 La sauge officinale, ou Salvia officinalis de son doux nom latin, est une plante vivace au port buissonnant, reconnaissable à son feuillage persistant, duveteux et légèrement argenté. Ses feuilles en forme d'ellipse dégagent un parfum puissant et aromatique, tandis que ses fleurs lilas s’épanouissent entre juin et juillet, attirant les pollinisateurs.</p>\n<p>☀️ Originaire du bassin méditerranéen, la sauge officinale affectionne les sols légers, secs, voire très secs, et parfaitement drainés. Les terres gorgées d’eau ? Très peu pour elle ! Ce qu’elle aime par-dessus tout, c’est une exposition bien ensoleillée et une place de choix dans les jardins secs ou les rocailles.</p>\n<p>🌱 Depuis l’Antiquité, la sauge est auréolée d’une réputation presque magique. Son nom vient du latin salvare, « sauver », tant elle était considérée comme une plante aux mille vertus. La sauge peut se vanter de son adage : qui a de la sauge dans son jardin n'a pas de médecin !</p>\n<p>☕ Côté bienfaits, la sauge officinale n’a rien à envier aux autres plantes médicinales ! En infusion, elle est reconnue pour ses propriétés digestives, antiseptiques et apaisantes, notamment pour les maux de gorge. En cuisine, elle sublime aussi bien les plats que les papilles avec son arôme puissant.</p>",
+    "imgName1": "sauge-officinale-1.jpg",
+    "imgName2": "sauge-officinale-2.jpg"
   },
   {
     "annuelle_ou_vivace": "Vivace",
