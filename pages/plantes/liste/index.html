@@ -9,7 +9,7 @@ permalink: /plantes/liste
 
     {% for plant in sortedPlants %} 
         {% if plant.un_jour_une_pousse %} 
-        <article class="py-3">
+        <article class="pb-3">
             <div class="col">
                 {% include plant_sheet.html pane='' plant=plant %}
             </div> 
