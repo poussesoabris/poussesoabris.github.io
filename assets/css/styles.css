@@ -115,6 +115,27 @@ footer a{
     color: white;
     text-decoration: underline;
 }
+.menu-btn{
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 5px;
+  margin-top: 5.5px;
+  margin-left: 10px;
+  border: 1px solid white;
+  border-radius: 7px;
+  color: white;
+}
+.menu-btn:hover{
+    border: 1px solid #537252;
+    color: #6b8e69;
+    background-color: white;
+}
+.menu-btn:hover .nav-link{
+    color: #6b8e69;
+}
+
 
 .text-green{
     color: #6b8e69;
