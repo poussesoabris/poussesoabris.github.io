@@ -376,13 +376,13 @@ footer a{
 .chiffres-annee-2 span{
     font-size: 3.5em;
     display: block;
-    font-family: 'Caveat', handwriting, sans-serif;    
+    font-family: 'Kalam', handwriting;  
     letter-spacing: 3px;
 }
 .chiffres-annee span{
     font-size: 3.5em;
     display: block;
-    font-family: 'Caveat', handwriting, sans-serif;    
+    font-family: 'Kalam', handwriting;    
     position: relative;
     bottom: -10px;
     letter-spacing: 3px;
@@ -784,4 +784,8 @@ footer a{
     color: #548553;
     border: 2px solid #548553;
      margin: 30px auto 40px;
+}
+
+#oa-embed-0{
+    width: 99% !important;
 }
