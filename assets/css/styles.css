@@ -430,7 +430,7 @@ footer a{
     cursor: pointer;
 }
 
-.non-dispo{
+.card-text.non-dispo{
     color: red;
     font-size: 11px;
 }
