@@ -1,0 +1,16 @@
+
+
+<li class="card position-relative">
+    <!--<a href="{{ post.url }}">-->
+    <a href="{{ post.link }}" target="_blank">
+        <img src="{{ post.image }}" class="card-img-top pt-0">
+        <div class="card-body border-top">
+            <h3 class="card-title">{{ post.title }}</h3>
+            <div class="card-text">
+                <div>{{ post.source }}</div>
+                <div>{{ post.date | date: "%d/%m/%Y" }}</div>
+            </div>
+            <!--<div class="card-text">{{ post.excerpt | truncatewords: 15 }}</p>-->
+        </div>
+   </a>
+</li>

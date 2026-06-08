@@ -789,3 +789,114 @@ footer a{
 #oa-embed-0{
     width: 99% !important;
 }
+
+
+.place-subtitle{
+    color: #703A58;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+.projets .accordion-button:not(.collapsed){
+    background-color: transparent;
+    color: #703A58;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: none;
+}
+.projets article{
+    /* border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem auto; */
+    padding: 10px 20px;
+}
+.projets article h3 button{
+    color: #703A58;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    /* padding: 0.5rem 0 1rem; */
+}
+.projets .accordion-body img{
+    max-height: 300px;
+    width: auto;
+    border-radius: 10px;
+}
+.projets article h4{
+    font-size: 1.25rem;
+}
+.projets-divider{
+    text-align: center;
+    color: #703A58;
+    padding: 1.5rem;
+}
+
+
+@media screen and (min-width: 789px) {
+    .post-list{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+}
+
+.post-list{
+    padding: 0;
+}
+
+.post-list > li{
+    /* background-color: white;
+    border: 1px solid #2e2e2e;
+    padding: 20px; */
+    border-radius: 8px;
+    margin-bottom: 30px;
+    height: fit-content;
+}
+
+.post-list h3{
+    color: #2e2e2e;
+    font-weight: initial;
+    font-variant: initial;
+}
+
+.post-list .card-text{
+    color: #2e2e2e;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-list a{
+    color: #2e2e2e;
+    text-decoration: none;
+}
+
+.post-container{
+    max-width: 800px;
+    margin: auto;
+}
+
+.post-container h1{
+   color: #703A58;
+   font-size: 2em;
+}
+.post-container h2{
+    font-size: 1.5em;
+ }
+
+.post-container section{
+    padding: 0;
+}
+
+.post-container img{
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.post-big-img{
+    width: 100%;
+    max-width: 400px;
+}
+

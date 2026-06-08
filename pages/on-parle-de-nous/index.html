@@ -1,0 +1,17 @@
+---
+title: Pousse Ô Abris, pépinière participative toulousaine
+layout: page2025
+permalink: /on-parle-de-nous
+---
+
+<h1 class="pt-5 mt-3">On parle de Pousses Ô Abris...</h1>
+<section class="py-5">
+  <ul class="post-list">
+    {% for post in site.posts %}
+        {% include post_preview.html content=post %}
+    {% endfor %}
+  </ul>
+  <div class="text-center"></div>
+</section>
+
+
